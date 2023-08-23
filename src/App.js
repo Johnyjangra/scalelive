@@ -1,12 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import NavBar from "./components/NavBar";
+import "./sumit.css"
+import ScalMarket from "./components/ScalMarket";
 
 function App() {
   return (
     <>
-      <NavBar />
+    <ScalMarket/>
     </>
   );
 }
