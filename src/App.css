@@ -8,6 +8,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-2xl: 40px;
+  --fs-3xl: 48px;
+  --fs-4xl: 180px;
+  --clr-blue: #378ebb;
+}
+.txt_blue {
+  color: var(--clr-blue);
+}
+
 .opcity_07 {
   opacity: 0.7;
 }
