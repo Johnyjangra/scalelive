@@ -6,7 +6,7 @@ const NavBar = () => {
   const [nav, setnav] = useState(true);
   return (
     <div>
-      <Container class="container">
+      <Container className="container">
         <div className="d-flex align-items-center justify-content-between pt-2">
           <img className="cur_pointr" src={logo} alt="logo" />
           <ul

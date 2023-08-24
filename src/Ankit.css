@@ -1,0 +1,60 @@
+.lh_160 {
+  line-height: 160%;
+}
+/* start About Us section */
+.accordion-button {
+  background: black !important;
+  padding: 0 9px 4px 0 !important;
+  align-items: start !important;
+}
+.accordion-body {
+  padding: 0 0 0 38px !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-item .accordion-button {
+  font-size: var(--fs-lg) !important;
+  color: white !important;
+  font-family: "rubik" !important;
+  font-weight: 400 !important;
+  border-radius: 0 !important;
+}
+.accordion-item {
+  border: none !important;
+  margin: auto;
+  margin-top: 12px;
+  background-color: black !important;
+  padding: 13px 16px;
+}
+.accordion-item:last-of-type {
+  border-radius: 4px !important;
+}
+.accordion-button::after {
+  background-image: url(./assets/images/svg/about_arrows.svg) !important;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.accordion_border {
+  background: black;
+  border-radius: 6px;
+  border: transparent;
+  position: relative;
+}
+.accordion_border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: 4px;
+  background-image: linear-gradient(169deg, #0076be, #95d8eb 100%);
+}
+.accordion_border:hover.accordion_border::after {
+  background-image: linear-gradient(169deg, #95d8eb, #0076be 100%);
+}
+/* end About Us section */
