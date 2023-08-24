@@ -2,47 +2,47 @@
   line-height: 160%;
 }
 /* start About Us section */
-.accordion-button {
+.about_us .accordion-button {
   background: black !important;
   padding: 0 9px 4px 0 !important;
   align-items: start !important;
 }
-.accordion-body {
+.about_us .accordion-body {
   padding: 0 0 0 38px !important;
 }
-.accordion-button:focus {
+.about_us .accordion-button:focus {
   box-shadow: none !important;
 }
-.accordion-item .accordion-button {
+.about_us .accordion-item .accordion-button {
   font-size: var(--fs-lg) !important;
   color: white !important;
   font-family: "rubik" !important;
   font-weight: 400 !important;
   border-radius: 0 !important;
 }
-.accordion-item {
+.about_us .accordion-item {
   border: none !important;
   margin: auto;
   margin-top: 12px;
   background-color: black !important;
   padding: 13px 16px;
 }
-.accordion-item:last-of-type {
+.about_us .accordion-item:last-of-type {
   border-radius: 4px !important;
 }
-.accordion-button::after {
+.about_us .accordion-button::after {
   background-image: url(./assets/images/svg/about_arrows.svg) !important;
 }
-.accordion-button:not(.collapsed) {
+.about_us .accordion-button:not(.collapsed) {
   box-shadow: none !important;
 }
-.accordion_border {
+.about_us .accordion_border {
   background: black;
   border-radius: 6px;
   border: transparent;
   position: relative;
 }
-.accordion_border::after {
+.about_us .accordion_border::after {
   content: "";
   position: absolute;
   top: 0;
@@ -58,3 +58,137 @@
   background-image: linear-gradient(169deg, #95d8eb, #0076be 100%);
 }
 /* end About Us section */
+/* start faqs sections */
+.faqs .accordion-button {
+  background: black !important;
+  padding: 0 !important;
+  align-items: start;
+}
+.faqs .accordion-body {
+  padding: 9px 0 0 0 !important;
+}
+.faqs .accordion-button:focus {
+  box-shadow: none !important;
+}
+.faqs .accordion-item .accordion-button {
+  font-size: var(--fs-lg) !important;
+  color: white !important;
+  font-family: "rubik" !important;
+  font-weight: 400 !important;
+  border-radius: 0 !important;
+}
+.faqs .accordion-item {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin: auto;
+  background-color: black !important;
+  padding: 14px 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.faqs .accordion-item:last-of-type {
+  border-radius: 4px !important;
+}
+.faqs .accordion-button::after {
+  background-image: url(./assets/images/svg/pluse.svg) !important;
+}
+.faqs .accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.faqs .accordion-button:not(.collapsed)::after {
+  background-image: url(./assets/images/svg/negtive.svg) !important;
+}
+/* end faqs sections */
+/* start products section */
+.product_card {
+  background: black;
+  border-radius: 15.716px;
+  border: transparent;
+  position: relative;
+}
+.product_card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin-right: -2px;
+  margin-left: -2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 15.716px;
+  background-image: linear-gradient(136deg, #0076be 0%, #48bf91 100%);
+  border-radius: 15.716px;
+}
+.product_card:hover.product_card:after {
+  background-image: linear-gradient(169deg, #48bf91, #0076be 100%);
+}
+.product_card_tranform_y {
+  transition: all 0.4s linear;
+}
+.product_card_tranform_y:hover {
+  transform: translateY(-30px);
+}
+.product_card_img_shadow::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(136deg, #0076be 0%, #48bf91 100%);
+  width: 111px;
+  height: 22px;
+  opacity: 0.3;
+  filter: blur(12px);
+  bottom: -25%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide > div {
+  display: flex;
+}
+/* end products section */
+@media (min-width: 576px) {
+  .faqs .accordion-item {
+    padding: 20px 0 24px 0 !important;
+  }
+  .faqs .accordion-body {
+    padding: 18px 0 0 0 !important;
+  }
+  .product_icons {
+    width: 91px !important;
+  }
+}
+@media (min-width: 992px) {
+  .faqs_top {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .position_lg_absolute {
+    position: absolute;
+  }
+  .faqs_img {
+    max-width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .position_xl_absolute {
+    position: absolute;
+  }
+  .about_img_end_50 {
+    right: -100px;
+  }
+  .about_img_561 {
+    max-width: 561px !important;
+  }
+  .faqs_img {
+    max-width: 600px;
+  }
+}
