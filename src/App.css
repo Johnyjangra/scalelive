@@ -262,7 +262,7 @@
   } */
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   :root {
     --fs-xsm: 14px;
     --fs-sm: 16px;
