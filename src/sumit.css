@@ -1,0 +1,104 @@
+/* scal marketed */
+.opcity_09 {
+    opacity: 0.9;
+}
+
+.market_img {
+    min-height: 233px;
+}
+
+.us_img {
+    min-height: 320px;
+}
+
+.carrier_img {
+    min-height: 268px;
+}
+
+.market_para::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 5px;
+    border-radius: 7px;
+    background: var(--linear-colors-linear-3, linear-gradient(136deg, #0076BE 0%, #48BF91 100%));
+    left: -6%;
+}
+.market_green_circle {
+    left: -15%;
+    bottom: 25%;
+}
+
+.market_blue_circle {
+    top: 18%;
+    right: -5%;
+}
+
+.market_blue_bottom {
+    right: -5%;
+    bottom: 0;
+}
+
+.mw_685 {
+    max-width: 685px;
+}
+
+.p_backdrop {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translatex(-50%);
+    border-radius: 269px;
+    opacity: 0.5;
+    background: var(--linear-colors-linear-1, linear-gradient(134deg, #0076BE 0%, #95D8EB 100%));
+    filter: blur(50px);
+    width: 269px;
+    height: 39px;
+}
+
+.bottom_p_lines {
+    border-radius: 4px;
+    background: linear-gradient(136deg, #0076BE 0%, #48BF91 100%);
+    backdrop-filter: blur(28.484941482543945px);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    max-width: 881px;
+}
+.bottom_img_circle{top: 25%;
+left: 44%;}
+
+@media (min-width: 768px) {
+    .lh_150 {
+        line-height: 150% !important;
+    }
+    .grren_circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 384px;
+        opacity: 0.8;
+        background: var(--linear-colors-linear-2, linear-gradient(141deg, #48BF91 0%, #8BD9C7 100%));
+        filter: blur(222px);
+    }
+    
+    .blue_circle {
+        width: 287px;
+        height: 287px;
+        border-radius: 287px;
+        opacity: 0.4;
+        background: var(--main-colors-dark-blue, #0076BE);
+        filter: blur(79.72222137451172px);
+    }
+
+}
+@media (min-width:1200px) {
+    .grren_circle {
+        width: 384px;
+        height: 384px;
+        border-radius: 384px;
+        opacity: 0.8;
+        background: var(--linear-colors-linear-2, linear-gradient(141deg, #48BF91 0%, #8BD9C7 100%));
+        filter: blur(222px);
+    }
+    
+    
+}
