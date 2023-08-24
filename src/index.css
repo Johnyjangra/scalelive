@@ -7,7 +7,9 @@
   --fs-2xl: 40px;
   --fs-3xl: 30px;
   --fs-4xl: 180px;
+  --clr-blue:#368EBB;
 }
+.txt_blue{color: var(--clr-blue);}
 
 .fs_xsm {
   font-size: var(--fs-xsm);
