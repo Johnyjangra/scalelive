@@ -3,7 +3,7 @@ import form_img from "../assets/images/webp/form_img.webp"
 const ContactUs = () => {
   return (
     <>
-      <section className='py-5 position-relative'>
+      <section className='py-5 position-relative'id='contact'>
         <div className='grren_circle position-absolute contact_top_circle d-none d-xxl-block'></div>
         <div className='grren_circle position-absolute contact_bottom_circle'></div>
       

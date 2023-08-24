@@ -6,7 +6,7 @@ const NavBar = () => {
   const [nav, setnav] = useState(true);
   return (
     <div>
-      <Container className="container">
+      <Container className="container nav_bar">
         <div className="d-flex align-items-center justify-content-between pt-2">
           <img className="cur_pointr" src={logo} alt="logo" />
           <ul
@@ -19,7 +19,7 @@ const NavBar = () => {
             <li>
               <a
                 className="ff_rubik fs_sm fw-regular text-white op_07 li_hover"
-                href="#"
+                href="#home"
               >
                 Home
               </a>
@@ -27,7 +27,7 @@ const NavBar = () => {
             <li className="pt-md-0 pt-3 ">
               <a
                 className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
-                href="#"
+                href="#about"
               >
                 About Us
               </a>
@@ -35,7 +35,7 @@ const NavBar = () => {
             <li className="pt-md-0 pt-3">
               <a
                 className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
-                href="#"
+                href="#services"
               >
                 Why Choose Us
               </a>

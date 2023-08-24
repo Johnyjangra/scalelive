@@ -7,7 +7,7 @@ import carrier_img from "../assets/images/webp/market_3.webp"
 const ScalMarket = () => {
   return (
     <>
-    <section className='bg-black py-5 position-relative overflow-hidden'>
+    <section className='py-5 position-relative'id='partners'>
         <div className='position-absolute grren_circle market_green_circle z-0'></div>
         <div className='position-absolute blue_circle market_blue_circle z-0'></div>
         <div className='position-absolute blue_circle market_blue_bottom z-0 d-none d-xxl-block'></div>

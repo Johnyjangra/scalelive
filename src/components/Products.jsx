@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import Slider from "react-slick";
 const Products = ({ Product }) => {
   var produc = {
@@ -28,7 +28,8 @@ const Products = ({ Product }) => {
   };
   return (
     <>
-      <section>
+      <section className="position-relative" id="products">
+      <div className="grren_circle product_green_circle position-absolute"></div>
         <Container>
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center mb-5 pb-4">
             Products

@@ -28,7 +28,7 @@ const Services = ({ Service }) => {
   };
   return (
     <>
-      <section>
+      <section id="services">
         <Container>
           <h4 className="ff_rubik fw-medium text-white fs_2xl text-center">
             Services
