@@ -43,8 +43,8 @@ const Products = ({ Product }) => {
                       <div className="product_card text-center h-100 px-sm-4 px-2 py-sm-5 py-3">
                         <div className="product_card_img_shadow position-relative">
                           <img
-                            src={product.img}
-                            alt={product.name}
+                            src={product.img} 
+                            alt={product.name} 
                             className="m-auto product_icons"
                             width={60}
                           />
