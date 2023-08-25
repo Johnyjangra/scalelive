@@ -7,7 +7,7 @@ const AboutUs = () => {
       <section className="position-relative py-5 z-1" id="about">
         <div className="grren_circle about_green_circle position-absolute"></div>
         <div className="blue_circle about_blue_circle position-absolute"></div>
-        <Container className="position-relative py-lg-5">
+        <Container className="position-relative py-lg-5 my-xl-5">
           <Row className="align-items-center align-items-xl-start justify-content-center justify-content-lg-start flex-column-reverse flex-lg-row">
             <Col xl={7} lg={6} className="pe-xl-4">
               <h4 className="ff_rubik fs_2xl fw-medium text-white mb-0 mt-sm-4 mt-3 mt-lg-0">

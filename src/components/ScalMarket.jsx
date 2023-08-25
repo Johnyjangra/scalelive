@@ -58,7 +58,7 @@ const ScalMarket = () => {
               </p>
             </Col>
           </Row>
-          <div className="position-relative bottom_p_lines mx-auto mt-lg-5 mt-md-4 mt-2">
+          <div className="position-relative bottom_p_lines mx-auto mt-lg-5 mt-md-4 mt-2 mb-lg-4 mb-xl-0">
             <div className="bg-black py-sm-4 py-3">
               <p className="py-2 mt-1 ff_rubik text-white fw-normal lh_150 opacity_09 fs_md position-relative mx-auto mb-0 mw_685 text-center">
                 Browse our wide assortment of smartphones and services, find

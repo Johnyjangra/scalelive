@@ -11,7 +11,7 @@ const Footer = () => {
                 <Container>
                     <Row className='justify-content-between align-items-center'>
                         <Col xl={4} lg={5} md={6}>
-                            <div><img src={f_logo} alt="footer_logo" width={110} /></div>
+                            <a href='#home'><img src={f_logo} alt="footer_logo" width={110} /></a>
                             <p className='ff_rubik text-white fw-normal fs_sm lh_150 opacity_07 pt-4 mt-1'>SCal Mobile is a U.S. tech solutions company that specializes in consumer electronics.</p>
                         </Col>
                         <Col xl={4} lg={5} md={6}>
