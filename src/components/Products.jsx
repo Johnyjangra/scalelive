@@ -30,7 +30,7 @@ const Products = ({ Product }) => {
     <>
       <section className="position-relative pt-5 pb-sm-5" id="products">
         <div className="grren_circle product_green_circle position-absolute"></div>
-        <Container className="pt-md-5">
+        <Container className="pt-md-5 mb-xl-5">
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-lg-4">
             Products
           </h5>
