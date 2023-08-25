@@ -30,7 +30,7 @@ const Services = ({ Service }) => {
   const arrows = useRef();
   return (
     <>
-      <section className="bg_img_services pt-5">
+      <section className="bg_img_services pt-5" id="services">
         <Container className=" position-relative">
           <h4 className="ff_rubik fw-medium text-white fs_2xl text-center">
             Services

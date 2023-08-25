@@ -6,7 +6,7 @@ const NavBar = () => {
   const [nav, setnav] = useState(true);
   return (
     <div>
-      <Container className="container">
+      <Container className="container nav_bar">
         <div className="d-flex align-items-center justify-content-between pt-2">
           <img className="cur_pointr" src={logo} alt="logo" />
           <ul
@@ -18,24 +18,24 @@ const NavBar = () => {
           >
             <li className="link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 li_hover "
-                href="#"
+                className="ff_rubik fs_sm fw-regular text-white op_07 li_hover"
+                href="#home"
               >
                 Home
               </a>
             </li>
             <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07  "
-                href="#"
+                className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
+                href="#about"
               >
                 About Us
               </a>
             </li>
             <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 "
-                href="#"
+                className="ff_rubik fs_sm fw-regular text-white op_07 ps- md-4"
+                href="#services"
               >
                 Why Choose Us
               </a>
@@ -54,7 +54,7 @@ const NavBar = () => {
               </span>
             </div>
           </ul>
-          <button className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-block d-none">
+          <button className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-block d-none btn_h">
             Contact Us
           </button>
 

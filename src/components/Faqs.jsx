@@ -4,7 +4,8 @@ import faqs from "../assets/images/webp/faqs.webp";
 const Faqs = () => {
   return (
     <>
-      <section className="position-relative py-5 z-1 faqs_shadow">
+      <section className="position-relative py-5 z-1 faqs_shadow" id="faqs">
+        <div className="blue_circle position-absolute faq_blue_circle"></div>
         <Container className="py-5">
           <Row className="align-items-center align-items-xl-start justify-content-center">
             <Col xl={5} lg={6} md={9} sm={11}>

@@ -1,8 +1,8 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import oneimg from "../assets/images/png/oneimg.png";
-import twoimg from "../assets/images/png/twoimg.png";
-import threeimg from "../assets/images/png/threeimg.png";
+import {Container,Row ,Col } from "react-bootstrap";
+// import oneimg from "../assets/images/png/oneimg.png";
+// import twoimg from "../assets/images/png/twoimg.png";
+// import threeimg from "../assets/images/png/threeimg.png";
 
 const TimeLine = () => {
   return (
