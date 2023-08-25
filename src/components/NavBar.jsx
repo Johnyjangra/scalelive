@@ -16,25 +16,25 @@ const NavBar = () => {
                 : "l_0 ps-0 mb-0 d-flex align-items-center mobile_ul"
             }
           >
-            <li>
+            <li className="link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 li_hover"
+                className="ff_rubik fs_sm fw-regular text-white op_07 li_hover "
                 href="#"
               >
                 Home
               </a>
             </li>
-            <li className="pt-md-0 pt-3 ">
+            <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
+                className="ff_rubik fs_sm fw-regular text-white op_07  "
                 href="#"
               >
                 About Us
               </a>
             </li>
-            <li className="pt-md-0 pt-3">
+            <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
+                className="ff_rubik fs_sm fw-regular text-white op_07 "
                 href="#"
               >
                 Why Choose Us

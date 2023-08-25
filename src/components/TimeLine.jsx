@@ -16,7 +16,7 @@ const TimeLine = () => {
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-4">
-          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot  after_ dot_2 afte r_dot_3">
+          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot  ">
             <Col lg={5} sm={2}>
               <div className="text-lg-end">
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
@@ -41,7 +41,7 @@ const TimeLine = () => {
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-between align-items-lg-center">
+          <Row className=" after_dot_2 position-relative justify-content-between align-items-lg-center">
             <Col
               lg={5}
               sm={2}
@@ -78,8 +78,8 @@ const TimeLine = () => {
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-between align-items-lg-center">
-            <Col lg={5} sm={2} className="pt-lg-5 mt-lg-5 mt-1">
+          <Row className="justify-content-between align-items-lg-center after_dot_3 position-relative">
+            <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1">
               <div className="text-lg-end text-start">
                 <h1 className="trns-text ff_rubik fs_4xl  ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
                   03
