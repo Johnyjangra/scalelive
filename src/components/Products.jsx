@@ -28,14 +28,14 @@ const Products = ({ Product }) => {
   };
   return (
     <>
-      <section className="position-relative py-5" id="products">
+      <section className="position-relative pt-5 pb-sm-5" id="products">
         <div className="grren_circle product_green_circle position-absolute"></div>
-        <Container>
-          <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-4">
+        <Container className="pt-md-5">
+          <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-lg-4">
             Products
           </h5>
           <div className="product_slider">
-            <Slider {...produc} className="py-5 product_slider">
+            <Slider {...produc} className="py-md-5  product_slider">
               {Product.map((product) => {
                 return (
                   <div key={product.id} className="py-5 px-xl-3 px-2">
