@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 import Preloader from "./components/Preloader";
 import BackToTop from "./components/BackToTop";
 import NavBar from "./components/NavBar";
