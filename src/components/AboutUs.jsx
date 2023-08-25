@@ -4,7 +4,7 @@ import aboutus from "../assets/images/webp/aboutus.webp";
 const AboutUs = () => {
   return (
     <>
-      <section className="position-relative py-5 z-1" id="about">
+      <section className="position-relative py-5 z-1"id="about">
         <div className="grren_circle about_green_circle position-absolute"></div>
         <div className="blue_circle about_blue_circle position-absolute"></div>
         <Container className="position-relative py-5">

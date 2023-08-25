@@ -23,7 +23,7 @@ import BackToTop from "./components/BackToTop";
 function App() {
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden mw_1920 mx-auto">
         <Preloader />
         <BackToTop />
         <NavBar />

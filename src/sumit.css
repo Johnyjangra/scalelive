@@ -3,6 +3,7 @@
 background: var(--linear-colors-linear-3, linear-gradient(136deg,#48BF91   0%, #0076BE 100%));
    
 }
+.mw_1920{max-width: 1920px;}
 
 /* hero_css */
 .hero_green_circle {
@@ -53,8 +54,8 @@ background: var(--linear-colors-linear-3, linear-gradient(136deg,#48BF91   0%, #
 
 /* backtotop */
 .backtotop_icon {
-    right: 10%;
-    bottom: 7%;
+    right: 5%;
+    bottom: 3%;
     height: 55px;
     width: 55px;
     padding-bottom: 3px;

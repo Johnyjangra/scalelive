@@ -1,4 +1,4 @@
-import React, { Container, Row, Col, Dropdown } from 'react-bootstrap'
+import React, { Container, Row, Col, Dropdown } from'react-bootstrap'
 import form_img from "../assets/images/webp/form_img.webp"
 const ContactUs = () => {
   return (
@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div className='grren_circle position-absolute contact_top_circle d-none d-xxl-block'></div>
         <div className='grren_circle position-absolute contact_bottom_circle'></div>
       
-        <Container>
+        <Container className='pb-lg-5 mb-lg-5'>
           <h2 className='fs_2xl text-white ff_rubik fw-medium text-center'>Contact Us</h2>
           <p className='text-center fs_lg fw-normal txt_blue font_s_italic'>Join Our Family Of Partners</p>
           <div className="mw_899 text-center mx-auto">
@@ -19,22 +19,22 @@ const ContactUs = () => {
           </div>
           <Row className='align-items-center flex-column-reverse flex-xl-row mt-5 pt-xl-4'>
             <Col xl={6}>
-              <form action='required' className='contact_form pt-lg-5 pt-xl-0 pt-4'>
+              <form action='required'className='contact_form pt-lg-5 pt-xl-0 pt-4'>
                 <div className='d-flex gap-3 pe-sm-3 pt-3 flex-column flex-sm-row'>
                   <Col sm={6}><span>First Name*</span>
-                    <input type="text" className='w-100' /></Col>
+                    <input type="text" className='w-100'/></Col>
                   <Col sm={6}><span>Last Name*</span>
-                    <input type="text" className='w-100' /></Col>
+                    <input type="text" className='w-100'/></Col>
                 </div>
                 <div className='d-flex gap-3 pe-sm-3 pt-3 flex-column flex-sm-row'>
                   <Col sm={6}><span>Company Name*</span>
-                    <input type="text" className='w-100' /></Col>
+                    <input type="text" className='w-100'/></Col>
                   <Col sm={6}><span>Phone Number*</span>
-                    <input type="number" className='w-100' /></Col>
+                    <input type="number" className='w-100'/></Col>
                 </div>
                 <div className='d-flex gap-3 pe-sm-3 pt-3 flex-column flex-sm-row'>
                   <Col sm={6}><span>Email*</span>
-                    <input type="email" className='w-100' /></Col>
+                    <input type="email" className='w-100'/></Col>
                   <Col sm={6}><span>Company Type*</span>
                     <Dropdown>
                       <Dropdown.Toggle id="dropdown-basic" className='w-100 d-flex align-items-center justify-content-between bg-transparent compant_dropdown'>
@@ -68,7 +68,7 @@ const ContactUs = () => {
                 <div className="pt-4 mt-lg-2"><button className='ff_rubik fw-normal fs_sm text-white form_btn btn_h'>Send Now</button></div>
               </form>
             </Col>
-            <Col xl={6} lg={9}><img src={form_img} alt="houmen_search"className='w-100 form_img' /></Col>
+            <Col xl={6} lg={9}><img src={form_img} alt="houmen_search"className='w-100 form_img'/></Col>
           </Row>
         </Container>
       </section>
