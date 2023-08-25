@@ -170,7 +170,7 @@ body {
 .linear_bg {
   background-image: url(./assets/images/webp/linearbg.webp);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: center;
 }
 .graph_set {
   left: 50%;
@@ -192,6 +192,80 @@ body {
   z-index: -1;
   right: -10%;
 }
+
+.bg_green {
+  border-radius: 3.749px;
+  border: 0.937px solid var(--main-colors-green, #48bf91);
+  background: rgba(72, 191, 145, 0.1);
+  backdrop-filter: blur(9.371428489685059px);
+}
+.white_line {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+}
+.map_dot_size {
+  height: 35px;
+  width: 35px;
+}
+.bg_brown {
+  border-radius: 3.749px;
+  border: 0.469px solid var(--main-colors-secondary-colors-orange, #ff9817);
+  background: rgba(255, 152, 23, 0.1);
+  backdrop-filter: blur(9.371428489685059px);
+}
+.white_line_2 {
+  width: 85px;
+  height: 2px;
+  background-color: white;
+}
+.bg_aqua {
+  border-radius: 3.749px;
+  border: 0.469px solid #8bd9c7;
+  background: rgba(139, 217, 199, 0.1);
+  backdrop-filter: blur(9.371428489685059px);
+}
+.bg_darkgreen {
+  border-radius: 3.749px;
+  border: 0.469px solid #a5d90a;
+  background: rgba(165, 217, 10, 0.1);
+  backdrop-filter: blur(9.371428489685059px);
+}
+.wid_138 {
+  width: 138px;
+}
+.bg_red {
+  border-radius: 3.749px;
+  border: 0.469px solid var(--main-colors-secondary-colors-red, #d93228);
+  background: rgba(217, 50, 40, 0.1);
+  backdrop-filter: blur(9.371428489685059px);
+}
+.white_verticl_line {
+  width: 2px;
+  height: 29px;
+  background-color: white;
+}
+.usa_pos {
+  top: 38%;
+  left: -5%;
+}
+.latin_pos {
+  bottom: 9%;
+  left: 3%;
+}
+.africa_pos {
+  bottom: 11%;
+  left: 53%;
+}
+.asia_pos {
+  right: -4%;
+  top: 58%;
+}
+.europ_pos {
+  left: 42%;
+  top: 10%;
+}
+
 /* scal marketed */
 
 .market_img {
@@ -280,7 +354,7 @@ body {
       1800deg,
       transparent,
       transparent 50%,
-      #fff 50%,
+      #fff 50%
       #fff 100%
     ),
     linear-gradient(
@@ -745,6 +819,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  .w_md_70 {
+    width: 70px;
+  }
+  .white_line_2 {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+  }
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
@@ -789,6 +871,31 @@ body {
     opacity: 0.4;
     background: var(--main-colors-dark-blue, #0076be);
     filter: blur(79.72222137451172px);
+  }
+  .usa_pos {
+    top: 38%;
+    left: -5%;
+  }
+  .latin_pos {
+    bottom: 9%;
+    left: 0%;
+  }
+  .africa_pos {
+    bottom: 11%;
+    left: 53%;
+  }
+  .asia_pos {
+    right: -4%;
+    top: 58%;
+  }
+  .europ_pos {
+    left: 39%;
+    top: -7%;
+  }
+  .white_asia_media_line {
+    width: 40px;
+    height: 2px;
+    background-color: white;
   }
 }
 
@@ -852,6 +959,29 @@ body {
   .faqs_img {
     max-width: 500px;
   }
+  .usa_pos {
+    top: 33%;
+    left: -7%;
+  }
+  .latin_pos {
+    bottom: 9%;
+    left: 3%;
+  }
+  .africa_pos {
+    bottom: 11%;
+    left: 53%;
+  }
+  .asia_pos {
+    right: -6%;
+    top: 54%;
+  }
+  .europ_pos {
+    left: 41%;
+    top: -1%;
+  }
+  .wid_138 {
+    width: 138px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -889,6 +1019,26 @@ body {
     width: 42% !important;
     bottom: 10%;
     position: absolute;
+  }
+  .usa_pos {
+    top: 34%;
+    left: -5%;
+  }
+  .latin_pos {
+    bottom: 9%;
+    left: 7%;
+  }
+  .africa_pos {
+    bottom: 11%;
+    left: 53%;
+  }
+  .asia_pos {
+    right: -3%;
+    top: 55%;
+  }
+  .europ_pos {
+    left: 42%;
+    top: 3%;
   }
 }
 @media (min-width: 1400px) {
