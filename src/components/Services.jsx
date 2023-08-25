@@ -10,13 +10,13 @@ const Services = ({ Service }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2200,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
+          autoplay: true,
+          autoplaySpeed: 2200,
         },
       },
       {
