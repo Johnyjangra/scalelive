@@ -9,7 +9,7 @@ const Faqs = () => {
         <div className="position-relative faqs_mw_1400">
           <Container className="py-5">
             <Row className="align-items-center align-items-xl-start justify-content-center">
-              <Col xl={5} lg={6} md={9} sm={11} className="min_h_600">
+              <Col xl={5} lg={6} md={9} sm={11} className="min_h_640">
                 <div className="position_lg_absolute faqs_top faqs_img">
                   <img src={faqs} alt="faqs" className="w-100" />
                 </div>
