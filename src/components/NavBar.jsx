@@ -5,7 +5,7 @@ import { Container, Nav } from "react-bootstrap";
 const NavBar = () => {
   const [nav, setnav] = useState(true);
   return (
-    <Nav className="bordr_bottm pb-2">
+    <Nav className="bordr_bottm pb-2 position-relative z-3">
       <Container className="container nav_bar">
         <div
           className="d-flex align-items-center justify-content-between pt-2"

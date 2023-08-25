@@ -735,6 +735,7 @@ body {
 .form_img {
   width: 100% !important;
 }
+
 @media (min-width: 576px) {
   .w_100 {
     width: 100%;
