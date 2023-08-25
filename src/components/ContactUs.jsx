@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div className='grren_circle position-absolute contact_top_circle d-none d-xxl-block'></div>
         <div className='grren_circle position-absolute contact_bottom_circle'></div>
       
-        <Container>
+        <Container className='pb-lg-5 mb-lg-5'>
           <h2 className='fs_2xl text-white ff_rubik fw-medium text-center'>Contact Us</h2>
           <p className='text-center fs_lg fw-normal txt_blue font_s_italic'>Join Our Family Of Partners</p>
           <div className="mw_899 text-center mx-auto">

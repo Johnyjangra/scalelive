@@ -28,10 +28,10 @@ const Products = ({ Product }) => {
   };
   return (
     <>
-      <section className="position-relative" id="products">
+      <section className="position-relative py-5" id="products">
       <div className="grren_circle product_green_circle position-absolute"></div>
         <Container>
-          <h5 className="ff_rubik fw-medium text-white fs_2xl text-center mb-5 pb-4">
+          <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-4">
             Products
           </h5>
           <div className="product_slider">

@@ -31,7 +31,7 @@ const Services = ({ Service }) => {
   return (
     <>
       <section className="bg_img_services pt-5"id="services">
-        <Container className="position-relative">
+        <Container className="position-relative py-lg-5">
           <h4 className="ff_rubik fw-medium text-white fs_2xl text-center">
             Services
           </h4>

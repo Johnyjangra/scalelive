@@ -23,19 +23,19 @@ import BackToTop from "./components/BackToTop";
 function App() {
   return (
     <>
-    <div className="overflow-hidden">
-    <Preloader/>
-    <BackToTop/>
-      <NavBar />
-      <Hero />
-      <ScalMarket />
-      <TimeLine />
-      <AboutUs />
-      <Products Product={product_data} />
-      <Services Service={services_data} />
-      <Faqs />
-      <ContactUs />
-      <Footer />
+      <div className="overflow-hidden mw_1920 mx-auto">
+        <Preloader />
+        <BackToTop />
+        <NavBar />
+        <Hero />
+        <ScalMarket />
+        <TimeLine />
+        <AboutUs />
+        <Products Product={product_data} />
+        <Services Service={services_data} />
+        <Faqs />
+        <ContactUs />
+        <Footer />
       </div>
     </>
   );

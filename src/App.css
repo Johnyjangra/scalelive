@@ -335,13 +335,13 @@
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: 47.1% !important;
+    left: 47.5% !important;
     top: 19%;
   }
   .after_dot_3::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: 47.1%;
+    left: 47.5%;
     top: 21%;
   }
   .w_unst {

@@ -6,7 +6,7 @@ const Faqs = () => {
     <>
       <section className="position-relative py-5 z-1 faqs_shadow"id="faqs">
         <div className="blue_circle position-absolute faq_blue_circle"></div>
-        <Container className="py-5">
+        <Container className="py-5 my-lg-5">
           <Row className="align-items-center align-items-xl-start justify-content-center">
             <Col xl={5} lg={6} md={9} sm={11}>
               <div className="position_lg_absolute start-0 faqs_top faqs_img">
