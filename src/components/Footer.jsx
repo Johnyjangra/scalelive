@@ -7,8 +7,7 @@ import linkdin from "../assets/images/svg/linkdin.svg"
 import twitter from "../assets/images/svg/twitter.svg"
 const Footer = () => {
     return (
-        <>
-            <section className='py-5 footer_bg footer'>
+        <>            <section className='py-5 footer_bg footer'>
                 <Container>
                     <Row className='justify-content-between align-items-center'>
                         <Col xl={4} lg={5} md={6}>
