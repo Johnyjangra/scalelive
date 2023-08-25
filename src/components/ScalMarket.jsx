@@ -7,18 +7,18 @@ import carrier_img from "../assets/images/webp/market_3.webp";
 const ScalMarket = () => {
   return (
     <>
-      <section className="py-5 position-relative" id="partners">
+      <section className="position-relative py-xl-4" id="partners">
         <div className="position-absolute grren_circle market_green_circle z-0"></div>
         <div className="position-absolute blue_circle market_blue_circle z-0"></div>
         <div className="position-absolute blue_circle market_blue_bottom z-0 d-none d-xxl-block"></div>
-        <Container className="position-relative z-2 py-lg-5 my-lg-5">
-          <Row className="justify-content-xl-between justify-content-center align-items-center">
+        <Container className="position-relative z-2 py-5 my-md-5">
+          <Row className="justify-content-lg-between justify-content-center align-items-center">
             <Col lg={7} md={10}>
               <img className="w-100 market_img" src={men_img} alt="men_img" />
             </Col>
-            <Col lg={4} md={10} xs={11} className="pe-0 pe-sm-2">
+            <Col lg={4} md={10} xs={11} className="pe-lg-0 pe-sm-2">
               <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-sm-3 pt-3">
-                SCal Mobile marked its presence in{" "}
+                SCal Mobile marked its presence in
                 <span className="txt_skyblue">2010</span>. Since then, we have
                 been working tirelessly around the idea of providing customers
                 with premium devices and services that change the norm in the
@@ -27,9 +27,9 @@ const ScalMarket = () => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-xl-between justify-content-center align-items-center flex-column-reverse flex-lg-row mt-5">
-            <Col lg={4} md={10} xs={11} className="pe-0 pe-sm-2">
-              <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-3">
+          <Row className="justify-content-lg-between justify-content-center align-items-center flex-column-reverse flex-lg-row">
+            <Col lg={5} md={10} xs={11} className="pe-0 pe-sm-2">
+              <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-3 pe-xl-5">
                 What started as a small US-based business has now evolved into
                 an international industry leader, operating in North and South
                 America, Asia, Europe, and Australia. Despite our worldwide
@@ -37,11 +37,11 @@ const ScalMarket = () => {
                 device-sourcing needs.
               </p>
             </Col>
-            <Col lg={7} md={9}>
+            <Col lg={6} md={9}>
               <img className="w-100 us_img" src={us_based} alt="businnes" />
             </Col>
           </Row>
-          <Row className="justify-content-xl-between justify-content-center align-items-center pb-5 mb-lg-5 mt-5">
+          <Row className="justify-content-lg-between justify-content-center align-items-center pb-lg-5 pb-4">
             <Col lg={7} md={10}>
               <img
                 className="w-100 carrier_img"
