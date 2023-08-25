@@ -7,8 +7,7 @@
   text-decoration: none !important;
   box-sizing: border-box;
 }
-/* utilities classes */
-
+/*----------------------------------------------------- utilities classes -------------------------------------------*/
 .ff_rubik {
   font-family: "rubik";
 }
@@ -21,6 +20,7 @@
 .z_index_100 {
   z-index: 1000;
 }
+.ws_nowrap{white-space: nowrap;}
 .opacity_09 {
   opacity: 0.9;
 }
@@ -46,7 +46,7 @@
   max-width: 1440px;
   margin: auto;
 }
-/* preloader */
+/*----------------------------------------------------- preloader -------------------------------------------*/
 .animation_preloader {
   animation: pulse 3s ease infinite;
   max-width: 250px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 }
-/* backtotop */
+/*----------------------------------------------------- backtotop -------------------------------------------*/
 .backtotop_icon {
   right: 5%;
   bottom: 3%;
@@ -113,7 +113,7 @@ body {
     transform: scale(1.2);
   }
 }
-/* nav bar */
+/*----------------------------------------------------- nav bar -------------------------------------------*/
 .bg_linear {
   border-radius: 100px;
   background: var(
@@ -151,7 +151,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
 }
-/* hero section */
+/*------------------------------------------------------------ hero section -------------------------------------------*/
 .red_round {
   width: 170px;
   height: 170px;
@@ -176,6 +176,7 @@ body {
   background-image: url(./assets/images/webp/linearbg.webp);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100% 100%;
 }
 .graph_set {
   left: 50%;
@@ -271,7 +272,7 @@ body {
   top: 10%;
 }
 
-/* scal marketed */
+/*----------------------------------------------------- scal marketed -------------------------------------------*/
 
 .market_img {
   min-height: 233px;
@@ -337,7 +338,7 @@ body {
   top: 25%;
   left: 44%;
 }
-/* why choose section */
+/*----------------------------------------------------- why choose section -------------------------------------------*/
 .after_line::before {
   content: "";
   position: absolute;
@@ -389,7 +390,7 @@ body {
   color: transparent;
   opacity: 0.3;
 }
-/*------------------------------------ About Us section --------------------*/
+/*----------------------------------------------------- About Us section ---------------------------*/
 .about_us .accordion-button {
   background: black !important;
   padding: 0 9px 4px 0 !important;
@@ -453,7 +454,7 @@ body {
   bottom: -5%;
   right: -3%;
 }
-/* start products section */
+/*----------------------------------------------------- start products section -------------------------------------------*/
 .product_card {
   background: black;
   border-radius: 15.716px;
@@ -512,7 +513,7 @@ body {
   bottom: -10% !important;
   left: -11%;
 }
-/* start Services section */
+/*----------------------------------------------------- start Services section -------------------------------------------*/
 .bg_img_services {
   background-image: url(./assets/images/webp/service_img.webp);
   background-size: cover;
@@ -547,7 +548,7 @@ body {
 .services_arrows svg:hover path {
   fill: black;
 }
-/* start faqs sections */
+/*----------------------------------------------------- faqs sections -------------------------------------------*/
 .faqs_mw_1400 {
   max-width: 1440px;
   margin: auto;
@@ -595,7 +596,7 @@ body {
   right: -6%;
   top: -10%;
 }
-/* contact us */
+/*----------------------------------------------------- contact us -------------------------------------------*/
 .font_s_italic {
   font-style: italic;
 }
@@ -626,6 +627,8 @@ body {
   padding: 16px;
   margin-top: 10px;
 }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {border-color: rgba(255, 255, 255, 0.319) !important;}
+
 .contact_form .dropdown-menu.show {
   width: 100% !important;
 }
@@ -688,7 +691,7 @@ body {
   left: -10%;
   z-index: -1;
 }
-/* footer */
+/*----------------------------------------------------- footer -------------------------------------------*/
 .footer_bg {
   background-image: url(./assets/images/webp/footer_bg.webp);
   background-repeat: no-repeat;
@@ -702,8 +705,9 @@ body {
   padding-top: 11px;
   font-weight: 400;
   line-height: 160%;
-  /* 25.6px */
+  transition: all 300ms linear;
 }
+.footer li a:hover{opacity: 1;}
 .footer .legel_links {
   font-family: "Rubik";
   color: white;
@@ -711,7 +715,10 @@ body {
   opacity: 0.7;
   font-weight: 400;
   line-height: 160%;
+  cursor: pointer;
+  transition: all 300ms linear;
 }
+.footer .legel_links:hover{opacity: 1;}
 .footer p {
   max-width: 300px;
 }
@@ -735,6 +742,7 @@ body {
 .form_img {
   width: 100% !important;
 }
+/*------------------------------------------------------- media screen 576 ---------------------------------*/
 @media (min-width: 576px) {
   .w_100 {
     width: 100%;
@@ -798,6 +806,7 @@ body {
     top: -55px !important;
   }
 }
+/*------------------------------------------------------- media screen 768 ---------------------------------*/
 @media (min-width: 768px) {
   .w_md_70 {
     width: 70px;
@@ -876,6 +885,7 @@ body {
     background-color: white;
   }
 }
+/*------------------------------------------------------- media screen 992 ---------------------------------*/
 @media (min-width: 992px) {
   .min_h_640 {
     min-height: 640px;
@@ -963,6 +973,7 @@ body {
     width: 138px;
   }
 }
+/*------------------------------------------------- media screen 1200 ----------------------------------*/
 @media (min-width: 1200px) {
   .container {
     max-width: 1164px !important;
@@ -1020,6 +1031,7 @@ body {
     top: 3%;
   }
 }
+/*------------------------------------------------- media screen 1400 ----------------------------------*/
 @media (min-width: 1400px) {
   .left_arrows {
     left: -54px !important;
