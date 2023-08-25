@@ -6,7 +6,7 @@ const ContactUs = () => {
       <section className="py-5 position-relative" id="contact">
         <div className="grren_circle position-absolute contact_top_circle d-none d-xxl-block"></div>
         <div className="grren_circle position-absolute contact_bottom_circle"></div>
-
+<div className="mw_1440 position-relative">
         <Container className="pb-lg-5 mb-lg-5">
           <h2 className="fs_2xl text-white ff_rubik fw-medium text-center">
             Contact Us
@@ -120,11 +120,12 @@ const ContactUs = () => {
               <img
                 src={form_img}
                 alt="houmen_search"
-                className="w-100 form_img"
+                className="form_img"
               />
             </Col>
           </Row>
         </Container>
+        </div>
       </section>
     </>
   );
