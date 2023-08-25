@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="blue_circle about_blue_circle position-absolute"></div>
         <Container className="position-relative py-5">
           <Row className="align-items-center align-items-xl-start justify-content-center justify-content-lg-start flex-column-reverse flex-lg-row">
-            <Col xl={7} lg={6} md={9} className="pe-xl-5">
+            <Col xl={7} lg={6} md={11} className="pe-xl-5">
               <h4 className="ff_rubik fw-medium text-white mb-0">About Us</h4>
               <p className="ff_rubik fw-normal text-white opacity_07 pb-3">
                 We Started With A Single Goal:
@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
-                          <p className="mb-0">Q1. </p>
+                          <p className="mb-0">01. </p>
                           <p className="mb-0">
                             To Become The Trusted Source For All Things
                             Smartphone In The International Re-Commerce World
@@ -53,7 +53,7 @@ const AboutUs = () => {
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
-                          <p className="mb-0">Q2. </p>
+                          <p className="mb-0">02. </p>
                           <p className="mb-0">
                             Doing Things The SCal Mobile Way
                           </p>
@@ -85,7 +85,7 @@ const AboutUs = () => {
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
-                          <p className="mb-0">Q3.</p>
+                          <p className="mb-0">03.</p>
                           <p className="mb-0">
                             We Stand By Our Core Values Of Integrity & Customer
                             Satisfaction
@@ -117,7 +117,7 @@ const AboutUs = () => {
                 </Accordion>
               </div>
             </Col>
-            <Col xl={5} lg={6} md={9} sm={11}>
+            <Col xl={5} lg={6} md={9} sm={11} className="min_h_600">
               <div className="position_xl_absolute about_img_end_50">
                 <img
                   src={aboutus}
