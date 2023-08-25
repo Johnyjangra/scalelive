@@ -15,7 +15,9 @@ const Faqs = () => {
                 </div>
               </Col>
               <Col xl={6} lg={6} md={9} className="ps-lg-5 mt-4 mt-lg-0">
-                <h4 className="ff_rubik fw-medium text-white mb-0">FAQs</h4>
+                <h4 className="ff_rubik fw-medium fs_2xl text-white mb-3">
+                  FAQs
+                </h4>
                 <div className="faqs">
                   <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
