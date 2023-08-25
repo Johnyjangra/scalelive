@@ -54,7 +54,7 @@ const NavBar = () => {
               </span>
             </div>
           </ul>
-          <button className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-block d-none">
+          <button className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-block d-none btn_h">
             Contact Us
           </button>
 

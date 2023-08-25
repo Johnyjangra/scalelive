@@ -3,9 +3,9 @@ import { Col, Container } from "react-bootstrap";
 import map from "../assets/images/png/map3.webp";
 const Hero = () => {
   return (
-    <section className="pt-5 position-relative"id="home">
+    <section className="pt-5 position-relative" id="home">
       <div className="grren_circle hero_green_circle position-absolute"></div>
-      <div className="hero_blue_circle position-absolute"></div>
+      <div className="hero_blue_circle position-absolute d-none d-md-block"></div>
       <Container className="container pt-4">
         <div className="red_round position-absolute round_red_set"></div>
         <h1 className="ff_rubik fs_3xl fw-semibold mx_785 text-white mx-auto lh_112 text-center pt-md-3 position-relative z-1">

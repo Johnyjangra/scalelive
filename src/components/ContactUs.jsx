@@ -65,7 +65,7 @@ const ContactUs = () => {
                <span>Message</span>
                 <textarea className='w-100 rounded-2 ff_rubik text-white fw-normal px-3 pt-2 fs_sm opacity_07'></textarea>
                </div>
-                <div className="pt-4 mt-lg-2"><button className='ff_rubik fw-normal fs_sm text-white form_btn'>Send Now</button></div>
+                <div className="pt-4 mt-lg-2"><button className='ff_rubik fw-normal fs_sm text-white form_btn btn_h'>Send Now</button></div>
               </form>
             </Col>
             <Col xl={6} lg={9}><img src={form_img} alt="houmen_search"className='w-100 form_img' /></Col>

@@ -1,3 +1,9 @@
+
+.btn_h:hover {
+background: var(--linear-colors-linear-3, linear-gradient(136deg,#48BF91   0%, #0076BE 100%));
+   
+}
+
 /* hero_css */
 .hero_green_circle {
     bottom: -20%;
@@ -49,13 +55,22 @@
 .backtotop_icon {
     right: 10%;
     bottom: 7%;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     padding-bottom: 3px;
     z-index: 100 !important;
     animation: backto 2s linear infinite;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    
+    background: var(--linear-colors-linear-3, linear-gradient(136deg, #0076BE 0%, #48BF91 100%));
 }
+.backtotop_icon img{width: 40px;
+height: 40px;}
+
 
 
 body {

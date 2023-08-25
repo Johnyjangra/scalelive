@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import backtotop from "../assets/images/png/backToTop.png"
+import backtotop from "../assets/images/svg/backtotop_arrow.svg"
 const BackToTop = () => {
   const back = () => {
     document.documentElement.scrollTop = 0;
@@ -20,7 +20,7 @@ const BackToTop = () => {
         {First ? (
           <div className="position-fixed  backtotop_icon c_pointer">
             <div onClick={back}>
-             <img src={backtotop} alt="arrow_icon" height={70}width={68}/>
+             <img src={backtotop} alt="arrow_icon"className="w-100"/>
             </div>
           </div>
         ) : (
