@@ -1,25 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import oneimg from"../assets/images/png/oneimg.png";
-// import twoimg from"../assets/images/png/twoimg.png";
-// import threeimg from"../assets/images/png/threeimg.png";
-
 const TimeLine = () => {
   return (
-    <div className="linear_bg py-5">
-      <Container className="container py-5">
-        <h1 className="text-center ff_rubik fs_2xl fw-medium text-white pt-4">
+    <div className="linear_bg py-md-5">
+      <Container className="container py-5 my-xl-4">
+        <h1 className="text-center ff_rubik fs_2xl fw-medium text-white pt-xxl-4">
           Why Choose Us?
         </h1>
 
-        <p className="text-center ff_rubik fs_sm fw-normal opacity_07 text-white">
+        <p className="text-center ff_rubik fs_sm fw-normal opacity_07 text-white mb-0">
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
-        <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-4">
+        <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-lg-4">
           <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot ">
             <Col lg={5} sm={2}>
               <div className="text-lg-end">
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4">
                   01
                 </h1>
               </div>
@@ -48,7 +44,7 @@ const TimeLine = () => {
               className="pt-lg-5 mt-sm-5 mt-2 d-lg-none d-block"
             >
               <div className="">
-                <h1 className="trns-text ff_rubik fs_4xl  ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
+                <h1 className="trns-text ff_rubik fs_4xl  ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0  ms-4 ms-sm-2">
                   02
                 </h1>
               </div>
@@ -81,7 +77,7 @@ const TimeLine = () => {
           <Row className="justify-content-between align-items-lg-center after_dot_3 position-relative">
             <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1">
               <div className="text-lg-end text-start">
-                <h1 className="trns-text ff_rubik fs_4xl  ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
+                <h1 className="trns-text ff_rubik fs_4xl  ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4">
                   03
                 </h1>
               </div>
