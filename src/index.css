@@ -92,10 +92,10 @@
   }
 }
 @media (max-width: 768px) {
-  .mobile_ul {
+  .mobile_ul { 
     flex-direction: column;
     background: #000;
-    width: 100%;
+    width: 100%; 
     position: absolute;
     left: 0;
     height: 100vh;
