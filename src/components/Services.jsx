@@ -30,7 +30,7 @@ const Services = ({ Service }) => {
   const arrows = useRef();
   return (
     <>
-      <section className="bg_img_services pt-5"id="services">
+      <section className="bg_img_services pt-5" id="services">
         <Container className="position-relative py-lg-5">
           <h4 className="ff_rubik fw-medium text-white fs_2xl text-center">
             Services
@@ -43,7 +43,7 @@ const Services = ({ Service }) => {
               requested services below. 
             </span>
           </p>
-          <Slider {...servic} className="py-5 product_slider"ref={arrows}>
+          <Slider {...servic} className="py-5 product_slider" ref={arrows}>
             {Service.map((service) => {
               return (
                 <div key={service.id} className="py-4 px-xl-3 px-2">
@@ -63,7 +63,7 @@ const Services = ({ Service }) => {
                       <h5 className="ff_rubik fs_lg fw-normal text-white mb-3 lh_150 px-3">
                         {service.heading}
                       </h5>
-                      <p className="ff_rubik fs_sm fw-normal text-white opcity_07 lh_160">
+                      <p className="ff_rubik fs_sm fw-normal text-white opacity_07 lh_160">
                         {service.para}
                       </p>
                     </div>

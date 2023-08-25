@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import logo from "../assets/images/svg/pagelogo.svg";
-import { Container } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   const [nav, setnav] = useState(true);
   return (
-    <div className="bordr_bottm pb-2">
+    <Nav className="bordr_bottm pb-2">
       <Container className="container nav_bar">
-        <div className="d-flex align-items-center justify-content-between pt-2" id="home">
+        <div
+          className="d-flex align-items-center justify-content-between pt-2"
+          id="home"
+        >
           <img className="cur_pointr" src={logo} alt="logo" />
           <ul
             className={
@@ -18,7 +21,7 @@ const NavBar = () => {
           >
             <li className="link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 li_hover"
+                className="ff_rubik fs_sm fw-regular text-white opacity_07 li_hover"
                 href="#home"
               >
                 Home
@@ -26,7 +29,7 @@ const NavBar = () => {
             </li>
             <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 ps-md-4"
+                className="ff_rubik fs_sm fw-regular text-white opacity_07 "
                 href="#about"
               >
                 About Us
@@ -34,7 +37,7 @@ const NavBar = () => {
             </li>
             <li className="pt-md-0 pt-3 ms-md-4 link_before_line">
               <a
-                className="ff_rubik fs_sm fw-regular text-white op_07 ps- md-4"
+                className="ff_rubik fs_sm fw-regular text-white opacity_07 ps- md-4"
                 href="#services"
               >
                 Why Choose Us
@@ -70,7 +73,7 @@ const NavBar = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </Nav>
   );
 };
 

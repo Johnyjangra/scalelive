@@ -1,5 +1,5 @@
 import React from "react";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 const Products = ({ Product }) => {
   var produc = {
@@ -29,7 +29,7 @@ const Products = ({ Product }) => {
   return (
     <>
       <section className="position-relative py-5" id="products">
-      <div className="grren_circle product_green_circle position-absolute"></div>
+        <div className="grren_circle product_green_circle position-absolute"></div>
         <Container>
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-4">
             Products
@@ -55,7 +55,7 @@ const Products = ({ Product }) => {
                         <h5 className="ff_rubik fs_lg fw-normal text-white mb-3 lh_150">
                           {product.heading}
                         </h5>
-                        <p className="ff_rubik fs_sm fw-normal text-white opcity_07 lh_160">
+                        <p className="ff_rubik fs_sm fw-normal text-white opacity_07 lh_160">
                           {product.para}
                         </p>
                       </div>

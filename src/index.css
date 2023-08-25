@@ -1,15 +1,27 @@
+/* root css */
 :root {
   --fs-xsm: 14px;
   --fs-sm: 16px;
   --fs-md: 18px;
-  --fs-lg: 16px;
+  --fs-lg: 20px;
   --fs-xl: 28px;
   --fs-2xl: 40px;
-  --fs-3xl: 30px;
-  --fs-4xl: 180px;
-  --clr-blue:#368EBB;
+  --fs-3xl: 48px;
+  --fs-4xl: 120px;
+  --clr-blue: #95d8eb;
 }
-.txt_blue{color: var(--clr-blue);}
+.text_blue {
+  color: var(--clr-blue);
+}
+.txt_skyblue {
+  background: var(
+    --linear-colors-linear-1,
+    linear-gradient(134deg, #0076be 0%, #95d8eb 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .fs_xsm {
   font-size: var(--fs-xsm);
@@ -41,4 +53,75 @@
 
 .fs_4xl {
   font-size: var(--fs-4xl);
+}
+/* root media screen */
+@media (min-width: 576px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 28px;
+    --fs-2xl: 40px;
+    --fs-3xl: 38px;
+    --fs-4xl: 39px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 28px;
+    --fs-2xl: 40px;
+    --fs-3xl: 48px;
+    --fs-4xl: 53px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 28px;
+    --fs-2xl: 40px;
+    --fs-3xl: 48px;
+    --fs-4xl: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .mobile_ul {
+    flex-direction: column;
+    background: #000;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    top: 0;
+    z-index: 20 !important;
+    justify-content: center;
+    transition: all 0.3s linear;
+  }
+
+  .cross_size {
+    font-size: 60px;
+  }
+
+  .top_0 {
+    top: 0;
+  }
+
+  .right_27 {
+    right: 27px;
+  }
+
+  .l_m100 {
+    left: -100%;
+  }
+
+  .l_0 {
+    left: 0;
+  }
 }

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="pt-5 position-relative" id="home">
       <img
-        className="position-absolute graph_set"
+        className="position-absolute graph_set z_m1"
         src={linemap}
         alt="linemap"
       />
@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className="ff_rubik fs_3xl fw-semibold mx_785 text-white mx-auto lh_112 text-center pt-md-3 position-relative z-1">
           Redefining the Smartphone Re-Commerce Industry Since 2010
         </h1>
-        <p className="ff_rubik fs_lg fw-normal text-white mx_617 text-center mx-auto pt-1 position-relative z-1">
+        <p className="ff_rubik fs_lg fw-normal text-white mx_617 text-center mx-auto pt-1 position-relative z-1 opacity_09">
           Serving customers across North America, South America, Europe,
           Australia, and Asia
         </p>

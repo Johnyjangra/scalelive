@@ -1,5 +1,5 @@
-import React from"react";
-import {Container,Row ,Col } from"react-bootstrap";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 // import oneimg from"../assets/images/png/oneimg.png";
 // import twoimg from"../assets/images/png/twoimg.png";
 // import threeimg from"../assets/images/png/threeimg.png";
@@ -12,7 +12,7 @@ const TimeLine = () => {
           Why Choose Us?
         </h1>
 
-        <p className="text-center ff_rubik fs_sm fw-normal op_07 text-white">
+        <p className="text-center ff_rubik fs_sm fw-normal opacity_07 text-white">
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-4">
@@ -29,7 +29,7 @@ const TimeLine = () => {
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   We Know What We Do
                 </h1>
-                <p className="ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className="ff_rubik fs_sm fw-normal opacity_07 text-white pt-3">
                   We’ve been there, done this. Actually, we have been doing this
                   for over a decade, pouring all our time, energy, and resources
                   into sourcing the best products for you and providing them at
@@ -58,7 +58,7 @@ const TimeLine = () => {
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0 text-lg-end">
                   It’s All About What Adds Value For You
                 </h1>
-                <p className="text-lg-end ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className="text-lg-end ff_rubik fs_sm fw-normal opacity_07 text-white pt-3">
                   We may not be the only tech solutions company in the industry,
                   but we are the leading one. Since the beginning of our journey
                   in the tech world, we have been striving to establish an
@@ -91,7 +91,7 @@ const TimeLine = () => {
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   However Far Away, We Will Always Serve You
                 </h1>
-                <p className=" ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className=" ff_rubik fs_sm fw-normal opacity_07 text-white pt-3">
                   Whether on a tropical island in Asia or a European metropolis,
                   we will deliver you the smartphone or service of your
                   preference with zero hassle. As an international distributor,
