@@ -1,7 +1,7 @@
 import phone from "../../assets/images/svg/iphone.svg";
 import warranty from "../../assets/images/svg/warranty.svg";
 import grading from "../../assets/images/svg/grading.svg";
-import Data from "../../assets/images/svg/data.svg";
+import data from "../../assets/images/svg/data.svg";
 import program from "../../assets/images/svg/program.svg";
 import testing from "../../assets/images/svg/testing.svg";
 // Products section map data
@@ -31,7 +31,7 @@ export const product_data = [
 export const services_data = [
   {
     id: 1,
-    img: Data,
+    img: data,
     name: "Data Erasures",
     heading: "Secure Deletion Of Data On All Devices",
     para: "Want to remove all data from your devices permanently? At SCal Mobile, we are certified to wipe any data-containing devices. Our team uses approved methods that comply with the highest regulatory standards, offering high-performing solutions that value your data's safety and save you from the deletion headache.",
@@ -47,7 +47,7 @@ export const services_data = [
     id: 3,
     img: program,
     name: "Production Program",
-    heading: "Get Your Next Phone With Serenity & Confidence",
+    heading: "Advance Inventory Access",
     para: "Worried the model you’re interested in will be sold before it’s added to our available inventory? Looking to reserve a specific product not yet in our ready-to-ship offerings? With our Production Program, gain advance notice to inventory that will be ready to ship within one to three days. ",
   },
 ];
