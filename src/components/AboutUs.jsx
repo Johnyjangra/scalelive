@@ -18,7 +18,7 @@ const AboutUs = () => {
               </p>
               <div className="about_us pe-xl-3 me-xl-1">
                 <Accordion defaultActiveKey="0">
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1000">
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
@@ -51,7 +51,7 @@ const AboutUs = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                   </div>
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1400">
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
@@ -83,7 +83,7 @@ const AboutUs = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                   </div>
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1600">
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">

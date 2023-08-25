@@ -1,7 +1,6 @@
 import "./App.css";
 import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.bundle";
 import Preloader from "./components/Preloader";
 import BackToTop from "./components/BackToTop";
 import NavBar from "./components/NavBar";
@@ -24,7 +23,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
-    AOS.init({
+    AOS.init(
+      {disable: 'mobile'},{
       duration: 3000,
       once:true,
     });

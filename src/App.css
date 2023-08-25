@@ -363,7 +363,7 @@ body {
   border: none;
   left: 3%;
 }
-.after_dot::after {
+.after_dot::after{
   content: url(../src/assets/images/svg/afterdot.svg);
   width: 50px;
   height: 50px;
@@ -373,7 +373,7 @@ body {
   left: 22px;
   transform: translateX(-27px);
 }
-.after_dot_2::after {
+.after_dot_2::after{
   content: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
   left: -3px;

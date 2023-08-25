@@ -16,16 +16,16 @@ const Hero = () => {
       <div className="hero_blue_circle position-absolute d-none d-md-block"></div>
       <Container className="container pt-4">
         <div className="red_round position-absolute round_red_set"></div>
-        <h1 className="ff_rubik fs_3xl fw-semibold mx_785 text-white mx-auto lh_112 text-center pt-md-3 position-relative z-1">
+        <h1 className="ff_rubik fs_3xl fw-semibold mx_785 text-white mx-auto lh_112 text-center pt-md-3 position-relative z-1"data-aos="fade-down"data-aos-delay="4000">
           Redefining the Smartphone Re-Commerce Industry Since 2010
         </h1>
-        <p className="ff_rubik fs_lg fw-normal text-white mx_617 text-center mx-auto pt-1 position-relative z-1 opacity_09">
+        <p className="ff_rubik fs_lg fw-normal text-white mx_617 text-center mx-auto pt-1 position-relative z-1 opacity_09"data-aos="fade-down"data-aos-delay="4500">
           Serving customers across North America, South America, Europe,
           Australia, and Asia
         </p>
         <Col lg={11} className="mx-auto pt-md-5 pt-3  z-1">
           <div className="position-relative d-md-block d-none">
-            <div className="d-flex align-items-center position-absolute usa_pos">
+            <div className="d-flex align-items-center position-absolute usa_pos" data-aos="fade-up" data-aos-delay="4200">
               <div className="wid_138 w_md_70 bg_green py-2 ">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
                   United State and Canada
@@ -40,7 +40,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="d-flex align-items-center position-absolute latin_pos">
+            <div className="d-flex align-items-center position-absolute latin_pos" data-aos="fade-up"data-aos-delay="4400">
               <div className="wid_138 w_md_100 bg_brown py-2 ">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
                   Latin Amirica and the Caribben
@@ -55,7 +55,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="d-flex align-items-center position-absolute africa_pos">
+            <div className="d-flex align-items-center position-absolute africa_pos" data-aos="fade-up"data-aos-delay="4400">
               <div className="map_dot_size">
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
@@ -67,7 +67,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="d-flex align-items-center position-absolute asia_pos">
+            <div className="d-flex align-items-center position-absolute asia_pos"data-aos="fade-right" data-aos-delay="4200">
               <div className="map_dot_size">
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
@@ -82,7 +82,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="d-flex flex-column align-items-center position-absolute europ_pos">
+            <div className="d-flex flex-column align-items-center position-absolute europ_pos" data-aos="fade-down"data-aod-delay="4200">
               <div className="wid_138 bg_red py-2 ">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center ">
                   Europe and the Middle East
@@ -93,7 +93,7 @@ const Hero = () => {
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
             </div>
-            <img className="w-100 " src={map} alt="map" />
+            <img className="w-100" src={map} alt="map" />
           </div>
           <div className="d-md-none d-block">
             <img className="w-100" src={areamap} alt="areamap" />
