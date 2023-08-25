@@ -1,9 +1,15 @@
 import React from "react";
 import { Col, Container } from "react-bootstrap";
 import map from "../assets/images/png/map3.webp";
+import linemap from "../assets/images/png/graphline.png";
 const Hero = () => {
   return (
     <section className="pt-5 position-relative" id="home">
+      <img
+        className="position-absolute graph_set"
+        src={linemap}
+        alt="linemap"
+      />
       <div className="grren_circle hero_green_circle position-absolute"></div>
       <div className="hero_blue_circle position-absolute d-none d-md-block"></div>
       <Container className="container pt-4">

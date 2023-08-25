@@ -184,6 +184,16 @@
 .link_before_line:hover::before {
   width: 100%;
 }
+.graph_set {
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  top: -117px;
+}
+.bordr_bottm {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+}
 @media (min-width: 576px) {
   :root {
     --fs-xsm: 14px;
