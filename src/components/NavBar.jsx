@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       <Container className="container nav_bar">
-        <div className="d-flex align-items-center justify-content-between pt-2">
+        <div className="d-flex align-items-center justify-content-between pt-2" id="home">
           <img className="cur_pointr" src={logo} alt="logo" />
           <ul
             className={

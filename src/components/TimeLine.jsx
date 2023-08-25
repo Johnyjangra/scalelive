@@ -1,8 +1,8 @@
-import React from "react";
-import {Container,Row ,Col } from "react-bootstrap";
-// import oneimg from "../assets/images/png/oneimg.png";
-// import twoimg from "../assets/images/png/twoimg.png";
-// import threeimg from "../assets/images/png/threeimg.png";
+import React from"react";
+import {Container,Row ,Col } from"react-bootstrap";
+// import oneimg from"../assets/images/png/oneimg.png";
+// import twoimg from"../assets/images/png/twoimg.png";
+// import threeimg from"../assets/images/png/threeimg.png";
 
 const TimeLine = () => {
   return (
@@ -16,7 +16,7 @@ const TimeLine = () => {
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-4">
-          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot  ">
+          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot ">
             <Col lg={5} sm={2}>
               <div className="text-lg-end">
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-2">
@@ -24,12 +24,12 @@ const TimeLine = () => {
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className=" position-relative ">
+            <Col lg={5} sm={10} className="position-relative">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   We Know What We Do
                 </h1>
-                <p className=" ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className="ff_rubik fs_sm fw-normal op_07 text-white pt-3">
                   We’ve been there, done this. Actually, we have been doing this
                   for over a decade, pouring all our time, energy, and resources
                   into sourcing the best products for you and providing them at
@@ -41,7 +41,7 @@ const TimeLine = () => {
               </div>
             </Col>
           </Row>
-          <Row className=" after_dot_2 position-relative justify-content-between align-items-lg-center">
+          <Row className="after_dot_2 position-relative justify-content-between align-items-lg-center">
             <Col
               lg={5}
               sm={2}
@@ -58,7 +58,7 @@ const TimeLine = () => {
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0 text-lg-end">
                   It’s All About What Adds Value For You
                 </h1>
-                <p className=" text-lg-end ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className="text-lg-end ff_rubik fs_sm fw-normal op_07 text-white pt-3">
                   We may not be the only tech solutions company in the industry,
                   but we are the leading one. Since the beginning of our journey
                   in the tech world, we have been striving to establish an
@@ -88,10 +88,10 @@ const TimeLine = () => {
             </Col>
             <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5   position-relative">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
-                <h1 className="ff_rubik fs_xl fw-medium text-white mb-0 ">
+                <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   However Far Away, We Will Always Serve You
                 </h1>
-                <p className="  ff_rubik fs_sm fw-normal op_07 text-white pt-3">
+                <p className=" ff_rubik fs_sm fw-normal op_07 text-white pt-3">
                   Whether on a tropical island in Asia or a European metropolis,
                   we will deliver you the smartphone or service of your
                   preference with zero hassle. As an international distributor,

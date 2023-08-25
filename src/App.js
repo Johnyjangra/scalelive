@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { product_data, services_data } from "./components/common/Helper";
 import Services from "./components/Services";
-// import TimeLine from "./components/TimeLine";
+import TimeLine from "./components/TimeLine";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
@@ -29,7 +29,7 @@ function App() {
       <NavBar />
       <Hero />
       <ScalMarket />
-      {/* <TimeLine /> */}
+      <TimeLine />
       <AboutUs />
       <Products Product={product_data} />
       <Services Service={services_data} />
