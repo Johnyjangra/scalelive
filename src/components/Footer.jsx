@@ -7,7 +7,7 @@ import linkdin from "../assets/images/svg/linkdin.svg"
 import twitter from "../assets/images/svg/twitter.svg"
 const Footer = () => {
     return (
-        <>            <section className='py-5 footer_bg footer'>
+        <>   <section className='py-5 footer_bg footer'>
                 <Container>
                     <Row className='justify-content-between align-items-center'>
                         <Col xl={4} lg={5} md={6}>
@@ -30,8 +30,8 @@ const Footer = () => {
                                     <h3 className='ff_rubik text-white fw-normal fs_lg lh_150'>Legal</h3>
                                     <div className='legel_links'>Vendor Code of Conduct</div>
                                     <div className='legel_links'>Data Sanitization Policy</div>
-                                    <div className='legel_links'>Downstream Recycling Policy</div>
-                                    <div className='legel_links'>Environmental and Social Impact</div>
+                                    <div className='legel_links ws_nowrap'>Downstream Recycling Policy</div>
+                                    <div className='legel_links ws_nowrap'>Environmental and Social Impact</div>
                                     <div className='legel_links'>Universal Waste Policy</div>
                                 </Col>
                             </Row>
