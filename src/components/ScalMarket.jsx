@@ -7,17 +7,17 @@ import carrier_img from "../assets/images/webp/market_3.webp";
 const ScalMarket = () => {
   return (
     <>
-      <section className="position-relative py-xl-4" id="partners">
+      <section className="position-relative py-xl-4 scal_market_shadow" id="partners">
         <div className="position-absolute grren_circle market_green_circle z-0"></div>
         <div className="position-absolute blue_circle market_blue_circle z-0"></div>
         <div className="position-absolute blue_circle market_blue_bottom z-0 d-none d-xxl-block"></div>
         <Container className="position-relative z-2 py-5 my-md-5">
-          <Row className="justify-content-lg-between justify-content-center align-items-center">
+          <Row className="justify-content-lg-between justify-content-center align-items-center my-4 my-lg-0">
             <Col lg={7} md={10} data-aos="fade-right" data-aos-delay="1000">
               <img className="w-100 market_img" src={men_img} alt="men_img" />
             </Col>
             <Col lg={4} md={10} xs={11} className="pe-lg-0 pe-sm-2" data-aos="fade-left" data-aos-delay="1000">
-              <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-sm-3 pt-3">
+              <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-3">
                 SCal Mobile marked its presence in 
                 <span className="txt_skyblue"> 2010 </span>. Since then, we have
                 been working tirelessly around the idea of providing customers
@@ -27,7 +27,7 @@ const ScalMarket = () => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-lg-between justify-content-center align-items-center flex-column-reverse flex-lg-row">
+          <Row className="justify-content-lg-between justify-content-center align-items-center flex-column-reverse flex-lg-row py-4 py-lg-0">
             <Col lg={5} md={10} xs={11} className="pe-0 pe-sm-2"data-aos="fade-right" data-aos-delay="1600">
               <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-3 pe-xl-5">
                 What started as a small US-based business has now evolved into
@@ -41,7 +41,7 @@ const ScalMarket = () => {
               <img className="w-100 us_img" src={us_based} alt="businnes" />
             </Col>
           </Row>
-          <Row className="justify-content-lg-between justify-content-center align-items-center pb-lg-5 pb-4">
+          <Row className="justify-content-lg-between justify-content-center align-items-center pb-lg-5 pb-4 my-4 my-lg-0">
             <Col lg={7} md={10} data-aos="fade-right">
               <img
                 className="w-100 carrier_img"

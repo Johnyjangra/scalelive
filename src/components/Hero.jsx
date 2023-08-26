@@ -26,7 +26,7 @@ const Hero = () => {
         <Col lg={11} className="mx-auto pt-md-5 pt-3  z-1">
           <div className="position-relative d-md-block d-none">
             <div className="d-flex align-items-center position-absolute usa_pos" data-aos="fade-up" data-aos-delay="4200">
-              <div className="wid_138 w_md_70 bg_green py-2 ">
+              <div className="wid_138 w_md_70 bg_green py-2 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
                   United State and Canada
                 </p>
@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
 
             <div className="d-flex align-items-center position-absolute latin_pos" data-aos="fade-up"data-aos-delay="4400">
-              <div className="wid_138 w_md_100 bg_brown py-2 ">
+              <div className="wid_138 w_md_100 bg_brown py-2 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
                   Latin Amirica and the Caribben
                 </p>
@@ -60,7 +60,7 @@ const Hero = () => {
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
               <div className="white_line me-2"></div>
-              <div className="wid_138 w_md_70 w bg_aqua py-3 ">
+              <div className="wid_138 w_md_70 w bg_aqua py-3 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center ">
                   Africa
                 </p>
@@ -72,7 +72,7 @@ const Hero = () => {
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
               <div className="white_line white_asia_media_line me-2"></div>
-              <div className="wid_138 w_md_70 bg_darkgreen py-2 px-2 ">
+              <div className="wid_138 w_md_70 bg_darkgreen py-2 px-2 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
                   Asia and the Pacific
                 </p>
@@ -83,7 +83,7 @@ const Hero = () => {
             </div>
 
             <div className="d-flex flex-column align-items-center position-absolute europ_pos" data-aos="fade-down"data-aod-delay="4200">
-              <div className="wid_138 bg_red py-2 ">
+              <div className="wid_138 bg_red py-2 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center ">
                   Europe and the Middle East
                 </p>
