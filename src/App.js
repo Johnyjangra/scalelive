@@ -1,4 +1,5 @@
 import "./App.css";
+import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Preloader from "./components/Preloader";
@@ -18,7 +19,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // helper
 import { product_data, services_data } from "./components/common/Helper";
+// aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {disable: 'mobile',
+      duration: 3000,
+      once:true,
+    });
+  }, []);
   return (
     <>
       <div className="overflow-hidden mw_1920 mx-auto">

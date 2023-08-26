@@ -7,7 +7,7 @@ const AboutUs = () => {
       <section className="position-relative py-5 z-1" id="about">
         <div className="grren_circle about_green_circle position-absolute"></div>
         <div className="blue_circle about_blue_circle position-absolute"></div>
-        <Container className="position-relative py-lg-5">
+        <Container className="position-relative py-lg-5 my-xl-5">
           <Row className="align-items-center align-items-xl-start justify-content-center justify-content-lg-start flex-column-reverse flex-lg-row">
             <Col xl={7} lg={6} className="pe-xl-4">
               <h4 className="ff_rubik fs_2xl fw-medium text-white mb-0 mt-sm-4 mt-3 mt-lg-0">
@@ -18,12 +18,12 @@ const AboutUs = () => {
               </p>
               <div className="about_us pe-xl-3 me-xl-1">
                 <Accordion defaultActiveKey="0">
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1000">
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">01. </p>
-                          <p className="mb-0">
+                          <p className="mb-0 accordrion_header_mw_442">
                             To Become The Trusted Source For All Things
                             Smartphone In The International Re-Commerce World
                           </p>
@@ -51,12 +51,12 @@ const AboutUs = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                   </div>
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1400">
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">02. </p>
-                          <p className="mb-0">
+                          <p className="mb-0 accordrion_header_mw_442">
                             Doing Things The SCal Mobile Way
                           </p>
                         </div>
@@ -83,12 +83,12 @@ const AboutUs = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                   </div>
-                  <div className="accordion_border">
+                  <div className="accordion_border"data-aos="fade-up"data-aos-delay="1600">
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">03.</p>
-                          <p className="mb-0">
+                          <p className="mb-0 accordrion_header_mw_442">
                             We Stand By Our Core Values Of Integrity & Customer
                             Satisfaction
                           </p>
