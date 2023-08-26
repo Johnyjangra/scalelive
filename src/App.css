@@ -12,11 +12,9 @@
 .ff_rubik {
   font-family: "rubik";
 }
-
 .fw_900 {
   font-weight: 900;
 }
-
 .mx_785 {
   max-width: 785px;
 }
@@ -518,15 +516,22 @@ body {
   position: absolute;
   border-radius: 6px;
   padding: 1px;
-  background: linear-gradient(169deg, #0076be, #95d8eb 100%);
+  background: linear-gradient(
+    169deg,
+    rgba(0, 118, 190, 0.3),
+    rgba(149, 216, 235, 0.3) 100%
+  );
   inset: 0;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   pointer-events: none;
 }
-
-.accordion_border:hover.accordion_border::after {
-  background: linear-gradient(169deg, #95d8eb, #0076be 100%);
+.accordion_border .accordion_border::after {
+  background: linear-gradient(
+    169deg,
+    rgba(0, 118, 190, 1),
+    rgba(149, 216, 235, 1) 100%
+  );
 }
 
 .about_green_circle {
@@ -1004,15 +1009,12 @@ body {
   .hero_map {
     min-height: 356px;
   }
-
   .w_md_70 {
     width: 70px;
   }
-
   .hero_map_xs {
     min-height: 138px;
   }
-
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
@@ -1252,7 +1254,7 @@ body {
   }
 
   .form_img {
-    right: 0;
+    right: -4%;
     width: 42% !important;
     bottom: 10%;
     position: absolute;

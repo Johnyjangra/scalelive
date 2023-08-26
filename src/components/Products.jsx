@@ -43,7 +43,8 @@ const Products = ({ Product }) => {
                     className="pt-4 px-xl-3 px-2"
                     data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-delay="2000"
+                    data-aos-duration="3000"
+                    data-aos-delay="500"
                   >
                     <div className="product_card_tranform_y h-100">
                       <div className="product_card text-center h-100 px-sm-4 px-2 py-sm-5 py-3">

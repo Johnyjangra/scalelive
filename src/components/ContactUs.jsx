@@ -40,12 +40,12 @@ const ContactUs = () => {
               </p>
             </div>
             <Row className="align-items-center flex-column-reverse flex-xl-row mt-5 pt-xl-4 justify-content-between">
-              <Col xl={7}>
+              <Col xxl={7}>
                 <form
                   action="required"
                   className="contact_form pt-lg-5 pt-xl-0 pt-4"
                 >
-                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="1000">
+                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="500">
                     <Col sm={6}>
                       <span>First Name*</span>
                       <input type="text" className="w-100" />
@@ -55,17 +55,17 @@ const ContactUs = () => {
                       <input type="text" className="w-100" />
                     </Col>
                   </div>
-                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="1200">
+                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="700">
                     <Col sm={6}>
                       <span>Company Name*</span>
                       <input type="text" className="w-100" />
                     </Col>
                     <Col sm={6}>
                       <span>Phone Number*</span>
-                      <input type="number" className="w-100" />
+                      <input type="text" className="w-100" />
                     </Col>
                   </div>
-                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="1400">
+                  <div className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"data-aos="fade-up"data-aos-delay="900">
                     <Col sm={6}>
                       <span>Email*</span>
                       <input type="email" className="w-100" />
@@ -84,7 +84,7 @@ const ContactUs = () => {
                       </Dropdown>
                     </Col>
                   </div>
-                  <div className="pt-sm-3 pt-sm-3 pt-2"data-aos="fade-up"data-aos-delay="1600">
+                  <div className="pt-sm-3 pt-sm-3 pt-2"data-aos="fade-up"data-aos-delay="1100">
                     <span>Buyers</span>
                     <Dropdown>
                       <Dropdown.Toggle
@@ -95,18 +95,18 @@ const ContactUs = () => {
                       </Dropdown.Toggle>
                     </Dropdown>
                   </div>
-                  <div className="pt-sm-3 pt-sm-3 pt-2"data-aos="fade-up"data-aos-delay="1800">
+                  <div className="pt-sm-3 pt-sm-3 pt-2"data-aos="fade-up"data-aos-delay="1300">
                     <span>Message</span>
                     <textarea className="w-100 rounded-2 ff_rubik text-white fw-normal px-3  fs_sm opacity_07"></textarea>
                   </div>
-                  <div className="pt-sm-4 pt-3 mt-lg-2"data-aos="fade-up"data-aos-delay="2000">
+                  <div className="pt-sm-4 pt-3 mt-lg-2"data-aos="fade-up"data-aos-delay="1500">
                     <button className="ff_rubik fw-normal fs_sm text-white form_btn btn_h">
                       Send Now
                     </button>
                   </div>
                 </form>
               </Col>
-              <Col xl={4} md={9}>
+              <Col xl={4} md={8}>
                 <img
                   src={form_img}
                   alt="houmen_search"

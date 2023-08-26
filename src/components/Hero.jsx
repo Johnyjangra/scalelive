@@ -24,7 +24,7 @@ const Hero = () => {
           Australia, and Asia
         </p>
         <Col lg={11} className="mx-auto pt-md-5 pt-3  z-1">
-          <div className="position-relative d-md-block d-none">
+          <div className="position-relative d-md-block d-none mx-3 mx-lg-2">
             <div className="d-flex align-items-center position-absolute usa_pos" data-aos="fade-up" data-aos-delay="4200">
               <div className="wid_138 w_md_70 bg_green py-2 scal_animation">
                 <p className="ff_rubik fs_xsm fw-normal text-white mb-0 text-center d-lg-block d-none">
