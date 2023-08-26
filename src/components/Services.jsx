@@ -33,7 +33,7 @@ const Services = ({ Service }) => {
   return (
     <>
       <section className="bg_img_services pt-5 pb-sm-2" id="services">
-        <Container className="position-relative py-lg-5 my-md-5">
+        <Container className="position-relative py-lg-5 pb-5 my-md-5">
           <h4 className="ff_rubik fw-medium text-white fs_2xl text-center">
             Services
           </h4>

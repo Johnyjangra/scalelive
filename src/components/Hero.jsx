@@ -93,10 +93,10 @@ const Hero = () => {
                 <img className="w-100" src={smalldot} alt="smalldot" />
               </div>
             </div>
-            <img className="w-100" src={map} alt="map" />
+            <img className="w-100 hero_map"  src={map} alt="map" />
           </div>
           <div className="d-md-none d-block">
-            <img className="w-100" src={areamap} alt="areamap" />
+            <img className="w-100 hero_map_xs" src={areamap} alt="areamap" />
           </div>
         </Col>
       </Container>

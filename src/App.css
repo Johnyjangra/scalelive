@@ -110,7 +110,7 @@
 
 .backtotop_icon img {
   width: 40px;
-  height: 40px;
+  height: 22px;
 }
 
 body {
@@ -700,8 +700,8 @@ body {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.02);
-  padding: 16px;
-  margin-top: 10px;
+  padding: 12px;
+  margin-top: 4px;
   outline: none;
   opacity: 0.7;
 }
@@ -817,9 +817,8 @@ body {
   font-family: "Rubik";
   font-size: var(--fs-sm);
   opacity: 0.7;
-  padding-top: 11px;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 220%;
   transition: all 300ms linear;
 }
 
@@ -918,6 +917,19 @@ body {
 }
 /*------------------------------------------------------- media screen 576 ---------------------------------*/
 @media (min-width: 576px) {
+  .contact_form input {
+    font-family: "Rubik";
+    color: white;
+    font-size: var(--fs-sm);
+    font-weight: 400x;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.02);
+    padding: 16px;
+    margin-top: 10px;
+    outline: none;
+    opacity: 0.7;
+  }
   .w_100 {
     width: 100%;
   }
@@ -962,10 +974,12 @@ body {
   }
 }
 /*------------------------------------------------------- media screen 768 ---------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 767.98px) {
+  .hero_map{min-height: 356px;}
   .w_md_70 {
     width: 70px;
   }
+  .hero_map_xs{min-height: 138px;}
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;

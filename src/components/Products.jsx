@@ -34,8 +34,8 @@ const Products = ({ Product }) => {
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-lg-4">
             Products
           </h5>
-          <div className="product_slider">
-            <Slider {...produc} className="py-md-5  product_slider">
+          <div className="product_slider py-md-4 py-5 py-xl-0 mb-md-5">
+            <Slider {...produc} className="py-md-5 py-4  product_slider">
               {Product.map((product) => {
                 return (
                   <div

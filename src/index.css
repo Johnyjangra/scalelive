@@ -83,7 +83,7 @@
     --fs-4xl: 180px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .mobile_ul { 
     flex-direction: column;
     background: #000;

@@ -18,8 +18,8 @@ const ScalMarket = () => {
             </Col>
             <Col lg={4} md={10} xs={11} className="pe-lg-0 pe-sm-2" data-aos="fade-left" data-aos-delay="1000">
               <p className="ff_rubik text-white fw-normal lh_150 opacity_09 fs_lg market_para position-relative mb-0 pt-md-4 pt-sm-3 pt-3">
-                SCal Mobile marked its presence in
-                <span className="txt_skyblue">2010</span>. Since then, we have
+                SCal Mobile marked its presence in 
+                <span className="txt_skyblue"> 2010 </span>. Since then, we have
                 been working tirelessly around the idea of providing customers
                 with premium devices and services that change the norm in the
                 smartphone re-commerce industry, moving into a new, more

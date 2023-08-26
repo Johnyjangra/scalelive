@@ -25,7 +25,7 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init(
-      {disable: 'mobile'},{
+      {disable: 'mobile',
       duration: 3000,
       once:true,
     });
