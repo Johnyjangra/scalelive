@@ -23,7 +23,7 @@ const AboutUs = () => {
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">01. </p>
-                          <p className="mb-0 accordion_header_w_442">
+                          <p className="mb-0 accordrion_header_mw_442">
                             To Become The Trusted Source For All Things
                             Smartphone In The International Re-Commerce World
                           </p>
@@ -56,7 +56,7 @@ const AboutUs = () => {
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">02. </p>
-                          <p className="mb-0 accordion_header_w_442">
+                          <p className="mb-0 accordrion_header_mw_442">
                             Doing Things The SCal Mobile Way
                           </p>
                         </div>
@@ -88,7 +88,7 @@ const AboutUs = () => {
                       <Accordion.Header>
                         <div className="d-flex gap-2 lh_150">
                           <p className="mb-0">03.</p>
-                          <p className="mb-0 accordion_header_w_442">
+                          <p className="mb-0 accordrion_header_mw_442">
                             We Stand By Our Core Values Of Integrity & Customer
                             Satisfaction
                           </p>

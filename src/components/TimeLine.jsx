@@ -4,10 +4,10 @@ const TimeLine = () => {
   return (
     <div className="linear_bg py-md-5">
       <Container className="container py-5 my-xl-4">
-        <h1 className="text-center ff_rubik fs_2xl fw-medium text-white pt-xxl-4" data-aos="fade-up">
+        <h1 className="text-center ff_rubik fs_2xl fw-medium text-white pt-xxl-4"data-aos="fade-up">
           Why Choose Us?
         </h1>
-        <p className="text-center ff_rubik fs_sm fw-normal opacity_07 text-white mb-0" data-aos="fade-up">
+        <p className="text-center ff_rubik fs_sm fw-normal opacity_07 text-white mb-0"data-aos="fade-up">
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-lg-4">
@@ -19,7 +19,7 @@ const TimeLine = () => {
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="position-relative" data-aos="fade-right">
+            <Col lg={5} sm={10} className="position-relative"data-aos="fade-right">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   We Know What We Do
@@ -40,7 +40,7 @@ const TimeLine = () => {
             <Col
               lg={5}
               sm={2}
-              className="pt-lg-5 mt-sm-5 mt-2 d-lg-none d-block" data-aos="fade-right"
+              className="pt-lg-5 mt-sm-5 mt-2 d-lg-none d-block"data-aos="fade-right"
             >
               <div>
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-4 ms-sm-2">
@@ -48,7 +48,7 @@ const TimeLine = () => {
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative" data-aos="fade-left">
+            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-left">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0 text-lg-end">
                   It’s All About What Adds Value For You
@@ -67,26 +67,26 @@ const TimeLine = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={5} className="pt-5 mt-5 d-lg-block d-none" data-aos="fade-right">
+            <Col lg={5} className="pt-5 mt-5 d-lg-block d-none"data-aos="fade-right">
               <div>
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-4">02</h1>
               </div>
             </Col>
           </Row>
           <Row className="justify-content-between align-items-lg-center after_dot_3 position-relative">
-            <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1" data-aos="fade-left">
+            <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1"data-aos="fade-left">
               <div className="text-lg-end text-start">
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4">
                   03
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative" data-aos="fade-right">
+            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-right">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   However Far Away, We Will Always Serve You
                 </h1>
-                <p className=" ff_rubik fs_sm fw-normal opacity_07 text-white pt-3">
+                <p className="ff_rubik fs_sm fw-normal opacity_07 text-white pt-3">
                   Whether on a tropical island in Asia or a European metropolis,
                   we will deliver you the smartphone or service of your
                   preference with zero hassle. As an international distributor,
