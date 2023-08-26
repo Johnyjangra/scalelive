@@ -14,7 +14,7 @@ const TimeLine = () => {
           <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot ">
             <Col lg={5} sm={2} data-aos="fade-left">
               <div className="text-lg-end">
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
                   01
                 </h1>
               </div>
@@ -43,7 +43,7 @@ const TimeLine = () => {
               className="pt-lg-5 mt-sm-5 mt-2 d-lg-none d-block"data-aos="fade-right"
             >
               <div>
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-4 ms-sm-2">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-4 ms-sm-2 fw_900">
                   02
                 </h1>
               </div>
@@ -69,14 +69,14 @@ const TimeLine = () => {
             </Col>
             <Col lg={5} className="pt-5 mt-5 d-lg-block d-none"data-aos="fade-right">
               <div>
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-4">02</h1>
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-4 fw_900">02</h1>
               </div>
             </Col>
           </Row>
           <Row className="justify-content-between align-items-lg-center after_dot_3 position-relative">
             <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1"data-aos="fade-left">
               <div className="text-lg-end text-start">
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
                   03
                 </h1>
               </div>
