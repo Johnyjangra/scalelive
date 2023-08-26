@@ -4,6 +4,7 @@ import { Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   const [nav, setnav] = useState(true);
+
   return (
     <Nav className="bordr_bottm pb-2">
       <Container className="container nav_bar">
@@ -11,7 +12,9 @@ const NavBar = () => {
           className="d-flex align-items-center justify-content-between pt-2"
           id="home"
         >
-          <img className="cur_pointr" src={logo} alt="logo" />
+          <div className="logo_size">
+            <img className="cur_pointr w-100" src={logo} alt="logo" />
+          </div>
           <ul
             className={
               nav

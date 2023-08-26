@@ -122,6 +122,9 @@ body {
   );
   transition: all 0.3s linear;
 }
+.logo_size {
+  max-width: 50px;
+}
 .py_14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -343,7 +346,6 @@ body {
   position: absolute;
   width: 3px;
   height: 95%;
-
   background-image: linear-gradient(
       1800deg,
       transparent,
@@ -359,7 +361,7 @@ body {
       transparent
     );
   background-size: 3px 30px, 100% 20px;
-  border: none;
+  /* border: none; */
   left: 3%;
 }
 .after_dot::after {
@@ -763,6 +765,9 @@ body {
     background-size: 3px 30px, 100% 20px;
     border: none;
     left: 0%;
+  }
+  .logo_size {
+    max-width: unset;
   }
   .after_dot::after {
     content: url(../src/assets/images/svg/afterdot.svg);
