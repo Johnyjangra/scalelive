@@ -40,7 +40,7 @@ const ContactUs = () => {
               </p>
             </div>
             <Row className="align-items-center flex-column-reverse flex-xl-row mt-5 pt-xl-4 justify-content-between">
-              <Col xxl={7}>
+              <Col xl={7}>
                 <form
                   action="required"
                   className="contact_form pt-lg-5 pt-xl-0 pt-4"
