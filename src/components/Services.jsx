@@ -17,14 +17,12 @@ const Services = ({ Service }) => {
           slidesToShow: 2,
           autoplay: true,
           autoplaySpeed: 2200,
-          dots: true,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          dots: true,
         },
       },
     ],
