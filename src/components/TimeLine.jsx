@@ -12,14 +12,16 @@ const TimeLine = () => {
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-lg-4">
           <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot ">
-            <Col lg={5} sm={2} data-aos="fade-left">
+            <Col lg={5} sm={2} data-aos="fade-left"
+              data-aos-duration="2000">
               <div className="text-lg-end">
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
                   01
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="position-relative"data-aos="fade-right">
+            <Col lg={5} sm={10} className="position-relative"data-aos="fade-right"
+              data-aos-duration="2000">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   We Know What We Do
@@ -41,6 +43,7 @@ const TimeLine = () => {
               lg={5}
               sm={2}
               className="pt-lg-5 mt-sm-5 mt-2 d-lg-none d-block"data-aos="fade-right"
+              data-aos-duration="2000"
             >
               <div>
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-4 ms-sm-2 fw_900">
@@ -48,7 +51,8 @@ const TimeLine = () => {
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-left">
+            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-left"
+              data-aos-duration="2000">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0 text-lg-end">
                   It’s All About What Adds Value For You
@@ -67,21 +71,23 @@ const TimeLine = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={5} className="pt-5 mt-5 d-lg-block d-none"data-aos="fade-right">
+            <Col lg={5} className="pt-5 mt-5 d-lg-block d-none">
               <div>
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-4 fw_900">02</h1>
               </div>
             </Col>
           </Row>
           <Row className="justify-content-between align-items-lg-center after_dot_3 position-relative">
-            <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1"data-aos="fade-left">
+            <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1"data-aos="fade-left"
+              data-aos-duration="2000">
               <div className="text-lg-end text-start">
                 <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
                   03
                 </h1>
               </div>
             </Col>
-            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-right">
+            <Col lg={5} sm={10} className="pt-lg-5 mt-sm-5 position-relative"data-aos="fade-right"
+              data-aos-duration="2000">
               <div className="ps-sm-0 ps-4 ms-sm-0 ms-2">
                 <h1 className="ff_rubik fs_xl fw-medium text-white mb-0">
                   However Far Away, We Will Always Serve You
