@@ -944,7 +944,7 @@ body {
 .after_dot::after {
   content: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
-  top: -3%;
+  top: -5%;
   left: 6%;
   transform: translateX(-27px);
 }
@@ -953,16 +953,40 @@ body {
   content: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
   left: -1%;
-  top: 13%;
+  top: -1%;
 }
 
 .after_dot_2::after {
   content: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
   left: -1%;
-  top: 10%;
+  top: -1%;
+}
+@media (min-width:400px) {
+  
+.after_dot::after {
+  content: url(../src/assets/images/svg/afterdot.svg);
+  position: absolute;
+  top: -6%;
+  left: 6%;
+  transform: translateX(-27px);
 }
 
+.after_dot_3::after {
+  content: url(../src/assets/images/svg/afterdot.svg);
+  position: absolute;
+  left: 0%;
+  top: -1%;
+}
+
+.after_dot_2::after {
+  content: url(../src/assets/images/svg/afterdot.svg);
+  position: absolute;
+  left: 0%;
+  top: -1%;
+}
+  
+}
 /*------------------------------------------------------- media screen 576 ---------------------------------*/
 @media (min-width: 576px) {
   .animation_preloader {
@@ -1085,9 +1109,8 @@ body {
   .after_dot::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    top: -6%;
+    top: -7%;
     left: -22.7%;
-    top: 0%;
     left: 2%;
     transform: translateX(-27px);
   }
@@ -1200,7 +1223,7 @@ body {
   .after_dot::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    top: -5%;
+    top: -6%;
     left: 50%;
     transform: translateX(-27px);
   }
@@ -1208,14 +1231,14 @@ body {
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: 47.2% !important;
+    left: 47% !important;
     top: 19%;
   }
 
   .after_dot_3::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: 47.5%;
+    left: 47%;
     top: 21%;
   }
 
@@ -1272,6 +1295,27 @@ body {
 
 /*------------------------------------------------- media screen 1200 ----------------------------------*/
 @media (min-width: 1200px) {
+  .after_dot::after {
+    content: url(../src/assets/images/svg/afterdot.svg);
+    position: absolute;
+    top: -6%;
+    left: 50%;
+    transform: translateX(-27px);
+  }
+
+  .after_dot_2::after {
+    content: url(../src/assets/images/svg/afterdot.svg);
+    position: absolute;
+    left: 47.5% !important;
+    top: 19%;
+  }
+
+  .after_dot_3::after {
+    content: url(../src/assets/images/svg/afterdot.svg);
+    position: absolute;
+    left: 47.5%;
+    top: 21%;
+  }
   .container {
     max-width: 1164px !important;
   }
