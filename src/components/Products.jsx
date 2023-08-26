@@ -16,12 +16,14 @@ const Products = ({ Product }) => {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
+          dots: true,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          dots: true,
         },
       },
     ],
@@ -34,13 +36,17 @@ const Products = ({ Product }) => {
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-lg-4">
             Products
           </h5>
-          <div className="product_slider">
-            <Slider {...produc} className="py-md-5  product_slider">
+          <div className="product_slider py-md-4 py-5 py-xl-0 mb-md-5">
+            <Slider {...produc} className="py-md-5 py-4  product_slider">
               {Product.map((product) => {
                 return (
-                  <div key={product.id} className="py-5 px-xl-3 px-2"data-aos="flip-left"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-delay="2000">
+                  <div
+                    key={product.id}
+                    className="pt-4 px-xl-3 px-2"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-delay="2000"
+                  >
                     <div className="product_card_tranform_y h-100">
                       <div className="product_card text-center h-100 px-sm-4 px-2 py-sm-5 py-3">
                         <div className="product_card_img_shadow position-relative">
