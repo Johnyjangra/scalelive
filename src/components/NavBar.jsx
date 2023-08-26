@@ -4,6 +4,14 @@ import { Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   const [nav, setnav] = useState(true);
+  function showUl() {
+    setnav(!nav);
+  }
+  if (!nav) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <Nav className="bordr_bottm pb-2 position-relative z-3">
       <Container className="container nav_bar">
@@ -49,9 +57,7 @@ const NavBar = () => {
             <div className="d-md-none d-block">
               <span
                 className="text-white cross_size position-absolute top_0 right_27"
-                onClick={() => {
-                  setnav(true);
-                }}
+                onClick={showUl}
               >
                 &#215;
               </span>
@@ -63,9 +69,8 @@ const NavBar = () => {
 
           <div
             className="d-md-none d-block"
-            onClick={() => {
-              setnav(false);
-            }}
+            onClick={showUl}
+            
           >
             <div className="navicon"> </div>
             <div className="navicon"></div>
