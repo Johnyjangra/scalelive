@@ -989,10 +989,12 @@ body {
   }
 }
 /*------------------------------------------------------- media screen 768 ---------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 767.98px) {
+  .hero_map{min-height: 356px;}
   .w_md_70 {
     width: 70px;
   }
+  .hero_map_xs{min-height: 138px;}
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;

@@ -31,11 +31,11 @@ const Footer = () => {
                                 </Col>
                                 <Col md={8} sm={7}xs={8}>
                                     <h3 className='ff_rubik text-white fw-normal fs_lg lh_150'>Legal</h3>
-                                    <div className='legel_links'>Vendor Code of Conduct</div>
-                                    <div className='legel_links'>Data Sanitization Policy</div>
-                                    <div className='legel_links'>Downstream Recycling Policy</div>
-                                    <div className='legel_links'>Environmental and Social Impact</div>
-                                    <div className='legel_links'>Universal Waste Policy</div>
+                                    <span className='legel_links'>Vendor Code of Conduct</span>
+                                    <span className='legel_links'>Data Sanitization Policy</span>
+                                    <span className='legel_links'>Downstream Recycling Policy</span>
+                                    <span className='legel_links'>Environmental and Social Impact</span>
+                                    <span className='legel_links'>Universal Waste Policy</span>
                                 </Col>
                             </Row>
                         </Col>
