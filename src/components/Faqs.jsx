@@ -11,14 +11,14 @@ const Faqs = () => {
         <div className="blue_circle position-absolute faq_blue_circle"></div>
         <div className="position-relative mw_1440">
           <Container className="py-5 my-xl-5">
-            <Row className="align-items-center justify-content-center justify-content-lg-between">
+            <Row className="align-items-center justify-content-center justify-content-lg-between flex-column-reverse flex-lg-row">
               <Col xl={5} lg={6} md={10} sm={11} className="min_h_640">
                 <div className="position_lg_absolute faqs_top faqs_img">
                   <img src={faqs} alt="faqs" className="w-100" />
                 </div>
               </Col>
-              <Col xl={6} lg={6}className="ps-lg-5 mt-4 mt-lg-0">
-                <h4 className="ff_rubik fw-medium text-white mb-0">FAQs</h4>
+              <Col xl={6} lg={6}className="ps-lg-5">
+                <h4 className="ff_rubik fw-medium text-white fs_2xl mb-0">FAQs</h4>
                 <div className="faqs">
                   <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0"data-aos="fade-up"data-aos-delay="1000">

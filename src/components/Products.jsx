@@ -16,14 +16,12 @@ const Products = ({ Product }) => {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
-          dots: true,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          dots: true,
         },
       },
     ],
@@ -72,6 +70,9 @@ const Products = ({ Product }) => {
                 );
               })}
             </Slider>
+          </div>
+          <div className="box">
+            <div className="box2"></div>
           </div>
         </Container>
       </section>
