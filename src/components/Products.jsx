@@ -10,7 +10,7 @@ const Products = ({ Product }) => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 6000,
     responsive: [
       {
         breakpoint: 1200,
@@ -28,19 +28,19 @@ const Products = ({ Product }) => {
   };
   return (
     <>
-      <section className="position-relative pt-5 pb-sm-5" id="products">
+      <section className="position-relative py-5" id="products">
         <div className="grren_circle product_green_circle position-absolute"></div>
-        <Container className="pt-md-5 mb-xl-5">
+        <Container className="pt-md-5 mb-5">
           <h5 className="ff_rubik fw-medium text-white fs_2xl text-center pb-lg-4">
             Products
           </h5>
-          <div className="product_slider py-md-4 py-5 py-xl-0 mb-md-5">
-            <Slider {...produc} className="py-md-5 py-4  product_slider">
+          <div className="product_slider my-lg-5">
+            <Slider {...produc} className="py-lg-5 pt-4  product_slider">
               {Product.map((product) => {
                 return (
                   <div
                     key={product.id}
-                    className="pt-4 px-xl-3 px-2"
+                    className="px-xl-3 px-2"
                     data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="3000"
@@ -71,9 +71,6 @@ const Products = ({ Product }) => {
                 );
               })}
             </Slider>
-          </div>
-          <div className="box">
-            <div className="box2"></div>
           </div>
         </Container>
       </section>

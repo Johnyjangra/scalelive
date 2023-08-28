@@ -31,6 +31,7 @@ const NavBar = () => {
               <a
                 className="ff_rubik fs_sm fw-regular text-white opacity_07 li_hover"
                 href="#home"
+                onClick={() => setnav(true)}
               >
                 Home
               </a>
@@ -39,6 +40,7 @@ const NavBar = () => {
               <a
                 className="ff_rubik fs_sm fw-regular text-white opacity_07 "
                 href="#about"
+                onClick={() => setnav(true)}
               >
                 About Us
               </a>
@@ -47,11 +49,15 @@ const NavBar = () => {
               <a
                 className="ff_rubik fs_sm fw-regular text-white opacity_07"
                 href="#services"
+                onClick={() => setnav(true)}
               >
                 Why Choose Us
               </a>
             </li>
-            <button className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-none d-block mt-3">
+            <button
+              className="ff_rubik fs_sm fw-normal text-white border-0 bg_linear py_14 px_31 btn_hover d-md-none d-block mt-3"
+              onClick={() => setnav(true)}
+            >
               Contact Us
             </button>
             <div className="d-md-none d-block">
@@ -67,11 +73,7 @@ const NavBar = () => {
             Contact Us
           </button>
 
-          <div
-            className="d-md-none d-block"
-            onClick={showUl}
-            
-          >
+          <div className="d-md-none d-block" onClick={showUl}>
             <div className="navicon"> </div>
             <div className="navicon"></div>
             <div className="navicon"></div>

@@ -422,7 +422,6 @@ body {
   content: url(../src/assets/images/svg/afterdot.svg);
   width: 50px;
   height: 50px;
-  border-color: #d93228;
   position: absolute;
   top: -3%;
   left: 22px;
@@ -518,14 +517,13 @@ body {
   -webkit-mask-composite: xor;
   pointer-events: none;
 }
-.accordion_border .accordion_border::after {
+/* .accordion_border::after:hover {
   background: linear-gradient(
     169deg,
     rgba(0, 118, 190, 1),
     rgba(149, 216, 235, 1) 100%
   );
-}
-
+} */
 .about_green_circle {
   top: -20%;
   left: -11%;
@@ -653,7 +651,7 @@ body {
 
 .faqs .accordion-button {
   background: transparent !important;
-  padding: 0 !important;
+  padding: 0 3px 0 0 !important;
   align-items: start;
 }
 
@@ -1022,7 +1020,7 @@ body {
   .after_line::before {
     content: "";
     position: absolute;
-    left: -0%;
+    left: 0%;
   }
 
   .after_dot::after {
@@ -1199,8 +1197,8 @@ body {
 
 /*------------------------------------------------------- media screen 992 ---------------------------------*/
 @media (min-width: 992px) {
-  .min_h_640 {
-    min-height: 640px;
+  .min_h_690 {
+    min-height: 690px;
   }
 
   .after_line::before {

@@ -44,10 +44,10 @@ const Footer = () => {
                 <div className="d-flex justify-content-between align-items-center mt-5 pt-lg-4 flex-column flex-sm-row">
                     <p className='ff_rubik fs_sm fw-normal text-white mb-0 opacity_07'>Copyright © {year} ScalMobile</p>
                     <div className='d-flex gap-3 pt-2 pt-sm-0'>
-                        <a href='https://www.facebook.com/Futurelifelinecrypto/?locale=sw_KE' target="blank"><img src={facebook} alt="facebook" width={30} className='footer_icon' /></a>
-                        <a href='https://www.instagram.com/ target="blank"'><img src={instagram} alt="instagram" width={30} className='footer_icon' /></a>
-                        <a href='https://www.linkedin.com/feed/' target="blank"><img src={linkdin} alt="linkdin" width={30} className='footer_icon' /></a>
-                        <a href='https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den' target="blank"><img src={twitter} alt="twitter" width={30} className='footer_icon' /></a>
+                        <a href='https://www.facebook.com/Futurelifelinecrypto/?locale=sw_KE' target="_blank"><img src={facebook} alt="facebook" width={30} className='footer_icon' /></a>
+                        <a href='https://www.instagram.com/ target="_blank"'><img src={instagram} alt="instagram" width={30} className='footer_icon' /></a>
+                        <a href='https://www.linkedin.com/feed/' target="_blank"><img src={linkdin} alt="linkdin" width={30} className='footer_icon' /></a>
+                        <a href='https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den' target="_blank"><img src={twitter} alt="twitter" width={30} className='footer_icon' /></a>
                     </div></div></Container>
             <div className='footer_line'></div>
         </section></>
