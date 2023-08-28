@@ -476,10 +476,6 @@ body {
 }
 
 .about_us .accordion-item {
-  border: none !important;
-  margin: auto;
-  background-color: transparent !important;
-  padding: 12px;
 }
 
 .about_us .accordion-item:last-of-type {
@@ -493,16 +489,18 @@ body {
 .about_us .accordion-button:not(.collapsed) {
   box-shadow: none !important;
 }
-
 .about_us .accordion_border {
+  margin-top: 12px;
+}
+.about_us .accordion-item:has(.accordion-header .accordion-button.collapsed) {
   border-radius: 6px;
   background: transparent;
   position: relative;
   padding: 1px;
   margin-top: 12px;
 }
-
-.about_us .accordion_border::after {
+.about_us
+  .accordion-item:has(.accordion-header .accordion-button.collapsed)::after {
   content: "";
   position: absolute;
   border-radius: 6px;
@@ -511,19 +509,37 @@ body {
     169deg,
     rgba(0, 118, 190, 0.3),
     rgba(149, 216, 235, 0.3) 100%
+  ) !important;
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.about_us .accordion-item {
+  border-radius: 6px;
+  background: transparent;
+  position: relative;
+  padding: 1px;
+  margin-top: 12px;
+  border: none !important;
+  background-color: transparent !important;
+  padding: 12px !important;
+}
+.about_us .accordion-item::after {
+  content: "";
+  position: absolute;
+  border-radius: 6px;
+  padding: 1px;
+  background: linear-gradient(
+    169deg,
+    rgba(0, 118, 190, 1),
+    rgba(149, 216, 235, 1) 100%
   );
   inset: 0;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   pointer-events: none;
 }
-/* .accordion_border::after:hover {
-  background: linear-gradient(
-    169deg,
-    rgba(0, 118, 190, 1),
-    rgba(149, 216, 235, 1) 100%
-  );
-} */
 .about_green_circle {
   top: -20%;
   left: -11%;
@@ -720,7 +736,8 @@ body {
   outline: none;
   opacity: 0.7;
 }
-.contact_form .dropdown{font-family: "Rubik";
+.contact_form .dropdown {
+  font-family: "Rubik";
   color: white;
   font-size: var(--fs-sm);
   font-weight: 400x;
@@ -729,7 +746,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.02);
   outline: none;
-  opacity: 0.7;}
+  opacity: 0.7;
+}
 
 .contact_form span {
   font-family: "Rubik";
@@ -829,7 +847,10 @@ body {
   left: -10%;
   z-index: -1;
 }
-
+.company_type select {
+  background: black !important;
+  padding: 4px !important;
+}
 /*----------------------------------------------------- footer -------------------------------------------*/
 .footer_bg {
   background-image: url(./assets/images/webp/footer_bg.webp);
@@ -850,7 +871,6 @@ body {
 .footer li a:hover {
   opacity: 1;
 }
-
 
 .footer .legel_links:hover {
   opacity: 1;
@@ -912,7 +932,7 @@ body {
 }
 
 .after_dot::after {
-  content: '';
+  content: "";
   background-image: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
   background-size: 100% 100%;
@@ -924,7 +944,7 @@ body {
 }
 
 .after_dot_3::after {
-  content: '';
+  content: "";
   background-image: url(../src/assets/images/svg/afterdot.svg);
   background-size: 100% 100%;
   height: 40px;
@@ -935,7 +955,7 @@ body {
 }
 
 .after_dot_2::after {
-  content: '';
+  content: "";
   background-image: url(../src/assets/images/svg/afterdot.svg);
   position: absolute;
   left: 1%;
@@ -944,42 +964,40 @@ body {
   width: 40px;
   top: -1%;
 }
-@media (min-width:400px) {
-  
-.after_dot::after {
-  content: '';
-  background-image: url(../src/assets/images/svg/afterdot.svg);
-  position: absolute;
-  background-size: 100% 100%;
-  height: 40px;
-  width: 40px;
-  top: -6%;
-  left: 7.5%;
-  transform: translateX(-27px);
-}
+@media (min-width: 400px) {
+  .after_dot::after {
+    content: "";
+    background-image: url(../src/assets/images/svg/afterdot.svg);
+    position: absolute;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    top: -6%;
+    left: 7.5%;
+    transform: translateX(-27px);
+  }
 
-.after_dot_3::after {
-  content: '';
-  background-image: url(../src/assets/images/svg/afterdot.svg);
-  background-size: 100% 100%;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  left: 2%;
-  top: -1%;
-}
+  .after_dot_3::after {
+    content: "";
+    background-image: url(../src/assets/images/svg/afterdot.svg);
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 2%;
+    top: -1%;
+  }
 
-.after_dot_2::after {
-  content: '';
-  background-image: url(../src/assets/images/svg/afterdot.svg);
-  position: absolute;
-  left: 2%;
-  background-size: 100% 100%;
-  height: 40px;
-  width: 40px;
-  top: -1%;
-}
-  
+  .after_dot_2::after {
+    content: "";
+    background-image: url(../src/assets/images/svg/afterdot.svg);
+    position: absolute;
+    left: 2%;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    top: -1%;
+  }
 }
 /*------------------------------------------------------- media screen 576 ---------------------------------*/
 @media (min-width: 576px) {
@@ -1005,7 +1023,7 @@ body {
     position: absolute;
     width: 746px;
     height: 746px;
-    background-color: #D93228;
+    background-color: #d93228;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1024,7 +1042,7 @@ body {
   }
 
   .after_dot::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     background-size: 100% 100%;
@@ -1034,9 +1052,9 @@ body {
     left: 3%;
     transform: translateX(-27px);
   }
-  
+
   .after_dot_3::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     background-size: 100% 100%;
     height: 50px;
@@ -1045,9 +1063,9 @@ body {
     left: -2%;
     top: -1%;
   }
-  
+
   .after_dot_2::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     left: -2%;
@@ -1074,7 +1092,7 @@ body {
   }
 
   .about_us .accordion-item {
-    padding: 13px 16px;
+    padding: 13px 16px !important;
   }
 }
 
@@ -1099,7 +1117,7 @@ body {
   }
 
   .after_dot::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     background-size: 100% 100%;
@@ -1109,9 +1127,9 @@ body {
     left: 2%;
     transform: translateX(-27px);
   }
-  
+
   .after_dot_3::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     background-size: 100% 100%;
     height: 50px;
@@ -1120,9 +1138,9 @@ body {
     left: -1.6%;
     top: 3%;
   }
-  
+
   .after_dot_2::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     left: -1.6%;
@@ -1231,7 +1249,7 @@ body {
   }
 
   .after_dot::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     background-size: 100% 100%;
@@ -1241,9 +1259,9 @@ body {
     left: 50%;
     transform: translateX(-27px);
   }
-  
+
   .after_dot_3::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     background-size: 100% 100%;
     height: 58px;
@@ -1252,9 +1270,9 @@ body {
     left: 47.2%;
     top: 24%;
   }
-  
+
   .after_dot_2::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     left: 47.2%;
@@ -1318,7 +1336,7 @@ body {
 /*------------------------------------------------- media screen 1200 ----------------------------------*/
 @media (min-width: 1200px) {
   .after_dot::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     background-size: 100% 100%;
@@ -1328,9 +1346,9 @@ body {
     left: 50%;
     transform: translateX(-27px);
   }
-  
+
   .after_dot_3::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     background-size: 100% 100%;
     height: 58px;
@@ -1339,9 +1357,9 @@ body {
     left: 47.6%;
     top: 26%;
   }
-  
+
   .after_dot_2::after {
-    content: '';
+    content: "";
     background-image: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
     left: 47.6%;

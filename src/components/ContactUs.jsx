@@ -92,9 +92,9 @@ const ContactUs = () => {
                     <Col sm={6}>
                       <span>Company Type*</span>
                      
-                        <div>
+                        <div className="company_type mt-3">
                         <select
-                          className="dropdown w-100 py-3 mt-2"
+                          className="dropdown w-100"
                         >
                           <option value="volvo">B2B</option>
                           <option value="saab">A3S</option>
