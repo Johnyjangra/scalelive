@@ -84,11 +84,11 @@
   }
 }
 @media (max-width: 767.98px) {
-  .mobile_ul { 
+  .mobile_ul {
     flex-direction: column;
     background: #000;
     width: 100%;
-    position:fixed !important;
+    position: fixed !important;
     left: 0;
     height: 100vh;
     top: 0;

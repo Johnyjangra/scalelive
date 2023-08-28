@@ -119,7 +119,7 @@ const AboutUs = () => {
                 </Accordion>
               </div>
             </Col>
-            <Col xl={5} lg={6} md={9} sm={11} className="min_h_640">
+            <Col xl={5} lg={6} md={9} sm={11} className="min_h_690">
               <div className="position_xl_absolute about_img_end_50">
                 <img
                   src={aboutus}
