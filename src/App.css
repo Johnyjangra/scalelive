@@ -460,7 +460,6 @@ body {
   content: url(../src/assets/images/svg/afterdot.svg);
   width: 50px;
   height: 50px;
-  border-color: #d93228;
   position: absolute;
   top: -3%;
   left: 22px;
@@ -996,7 +995,7 @@ body {
   .after_line::before {
     content: "";
     position: absolute;
-    left: -0%;
+    left: 0%;
   }
 
   .after_dot::after {
@@ -1056,7 +1055,7 @@ body {
   .after_dot_2::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: -2%;
+    left: -16px;
     top: 10%;
   }
 
@@ -1086,8 +1085,8 @@ body {
   .after_dot_3::after {
     content: url(../src/assets/images/svg/afterdot.svg);
     position: absolute;
-    left: -2%;
-    top: 0%;
+    left: -15px;
+    top: 18%;
   }
 
   .lh_150 {
