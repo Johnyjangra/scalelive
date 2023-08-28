@@ -47,7 +47,7 @@ const ContactUs = () => {
               </p>
             </div>
             <Row className="align-items-center flex-column-reverse flex-xl-row mt-5 pt-xl-4 justify-content-between">
-              <Col xxl={7}>
+              <Col xl={7}>
                 <form
                   action="required"
                   className="contact_form pt-lg-5 pt-xl-0 pt-4"
@@ -91,14 +91,18 @@ const ContactUs = () => {
                     </Col>
                     <Col sm={6}>
                       <span>Company Type*</span>
-                      <Dropdown>
-                        <Dropdown.Toggle
-                          id="dropdown-basic"
-                          className="w-100 d-flex align-items-center justify-content-between bg-transparent compant_dropdown"
+                     
+                        <div className="company_type mt-3">
+                        <select
+                          className="dropdown w-100"
                         >
-                          <p className="ff_rubik mb-0 fw-normal fs_sm">B2B</p>
-                        </Dropdown.Toggle>
-                      </Dropdown>
+                          <option value="volvo">B2B</option>
+                          <option value="saab">A3S</option>
+                          <option value="opel">OK5</option>
+                          <option value="audi">U7S</option>
+                        </select>
+                        </div>
+                    
                     </Col>
                   </div>
                   <div

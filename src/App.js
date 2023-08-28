@@ -2,7 +2,6 @@ import "./App.css";
 import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import Preloader from "./components/Preloader";
 import BackToTop from "./components/BackToTop";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
@@ -33,7 +32,6 @@ function App() {
   return (
     <>
       <div className="overflow-hidden mw_1920 mx-auto">
-        <Preloader />
         <BackToTop />
         <NavBar />
         <Hero />
