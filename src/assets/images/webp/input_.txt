@@ -1,0 +1,665 @@
+import React, { useState, useRef, useEffect } from "react";
+
+import { Col, Container, Row } from "react-bootstrap";
+import big1 from "../assets/images/png/slider_img_1_big.png";
+import big2 from "../assets/images/png/slider_img_2_big.png";
+import big3 from "../assets/images/png/slider_img_3_big.png";
+import small1 from "../assets/images/png/slider_img_1_small.png";
+import small2 from "../assets/images/png/slider_img_2_small.png";
+import small3 from "../assets/images/png/slider_img_3_small.png";
+import right from "../assets/images/png/right.png";
+import left from "../assets/images/png/left.png";
+import Slider from "react-slick";
+const Overview = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [selected, setIsSelected] = useState("CA");
+  const [First, setFirst] = useState(false);
+  const [Second, setIsSecond] = useState("Doheny State Beach");
+  const [Third, setThird] = useState(false);
+  const [Fourth, setIsFourth] = useState("RV");
+  const [Fifth, setFifth] = useState(false);
+  const [Sixth, setIsSixth] = useState("10 ft.");
+  const [Seventh, setSeventh] = useState(false);
+  const [Eighth, setIsEighth] = useState("01");
+  const [Ninth, setNinth] = useState(false);
+  const [Tenth, setIsTenth] = useState("Friday,May 13/2022");
+  const [Eleventh, setEleventh] = useState(false);
+  const [Twelevth, setIsTwelevth] = useState("Sunday,May 15/2022");
+  const [image, setImage] = useState(big1);
+  // image slider
+  // const scaleImage = useRef();
+  // const abc = (e) => {
+  //   setImage(e.target.src);
+  // };
+  const slider1 = useRef(null);
+  const slider2 = useRef(null);
+  const settings1 = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    // asNavFor: slider2.current,
+  };
+  const settings2 = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    focusOnSelect: true,
+    // asNavFor: slider1.current,
+  };
+  return (
+    <>
+      <section className="bg_body position-relative py-5">
+        <div className="py-lg-5">
+          <Container className="py-lg-5">
+            <Row className="justify-content-between">
+              <Col xl={6}>
+                <p className="ff_comic fw_700 fs_lg color_black m-0 lh_80">
+                  Overview
+                </p>
+                <ul className="pt_10 m-0 mw_531">
+                  <li className="ff_calibri_regular fw_400 fs_sm color_black opacity_07 m-0 pt-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                  <li className="ff_calibri_regular fw_400 fs_sm color_black opacity_07 m-0 pt-2">
+                    Commodo venenatis nec enim nisi id. Vestibulum interdum
+                    dictumst rhoncus ultrices amet amet.
+                  </li>
+                  <li className="ff_calibri_regular fw_400 fs_sm color_black opacity_07 m-0 pt-2">
+                    Tellus adipiscing augue curabitur leo, pretium habitant
+                    turpis quis.
+                  </li>
+                  <li className="ff_calibri_regular fw_400 fs_sm color_black opacity_07 m-0 pt-2">
+                    Quam mattis senectus odio mattis gravida gravida
+                    sollicitudin commodo. Cursus faucibus ut egestas in metus.
+                  </li>
+                  <li className="ff_calibri_regular fw_400 fs_sm color_black opacity_07 m-0 pt-2">
+                    Consequat, suspendisse duis eget purus ornare.
+                  </li>
+                </ul>
+
+                <Slider ref={slider1} {...settings1} className="pt_50 ">
+                  <img
+                    src={big1}
+                    alt="big image 1"
+                    className="mw_445 h_355 w_100 br_7"
+                  />
+                  <img
+                    src={big2}
+                    alt="big image 2"
+                    className="mw_445 h_355 w_100 br_7"
+                  />
+                  <img
+                    src={big3}
+                    alt="big image 3"
+                    className="mw_445 h_355 w_100 br_7"
+                  />
+                </Slider>
+
+                <div className="d-flex justify-content-center mw_445">
+                  <div className="mt_36 small_img_box ">
+                    <Slider ref={slider2} {...settings2}>
+                      <div className="px-2 py-2">
+                        <img
+                          src={small1}
+                          alt="small slider image 1"
+                          className="w-100 hover_small_img br_7"
+                        />
+                      </div>
+
+                      <div className="px-2 py-2">
+                        <img
+                          src={small2}
+                          alt="small slider image 2"
+                          className="w-100 hover_small_img br_7"
+                        />
+                      </div>
+
+                      <div className="px-2 py-2">
+                        <img
+                          src={small3}
+                          alt="small slider image 3"
+                          className="w-100 hover_small_img br_7"
+                        />
+                      </div>
+                    </Slider>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={6}>
+                <div className="reservation_box mt_50_xl">
+                  <p className="ff_comic fs_lg fw_700 text-white text-md-start text-center m-0 p-0 mw_421 lh_41">
+                    Platte River Sold Out? We can get you a reservation!
+                  </p>
+                  <div className="get_started_box mt_38">
+                    <p className="ff_comic fw_700 pl_32 fs_md text-white text-center m-0">
+                      get started here
+                    </p>
+                    <div className="d-flex justify-content-between pt_24">
+                      <div className="App">
+                        <div className="dropdown min_92">
+                          <div
+                            onClick={(e) => {
+                              setIsActive(!isActive);
+                            }}
+                            className="dropdown-btn d-flex justify-content-between"
+                          >
+                            {selected}
+                            <span
+                              className={
+                                isActive
+                                  ? "fas fa-caret-up"
+                                  : "fas fa-caret-down"
+                              }
+                            />
+                            <span className="pl_15">
+                              <svg
+                                width="13"
+                                height="7"
+                                viewBox="0 0 13 7"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 1L6.5 6L11.5 1"
+                                  stroke="white"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div
+                            className="dropdown-content"
+                            style={{ display: isActive ? "block" : "none" }}
+                          >
+                            <div
+                              onClick={(e) => {
+                                setIsSelected(e.target.textContent);
+                                setIsActive(!isActive);
+                              }}
+                              className="item"
+                            >
+                              CA
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsSelected(e.target.textContent);
+                                setIsActive(!isActive);
+                              }}
+                            >
+                              CB
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsSelected(e.target.textContent);
+                                setIsActive(!isActive);
+                              }}
+                            >
+                              CD
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* ######################################## */}
+                      <div className="App">
+                        <div className="dropdown pl_18 pl_15 min_260">
+                          <div
+                            onClick={(e) => {
+                              setFirst(!First);
+                            }}
+                            className="dropdown-btn d-flex justify-content-between"
+                          >
+                            {Second}
+                            <span
+                              className={
+                                isActive
+                                  ? "fas fa-caret-up"
+                                  : "fas fa-caret-down"
+                              }
+                            />
+                            <span className="pl_15">
+                              <svg
+                                width="13"
+                                height="7"
+                                viewBox="0 0 13 7"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 1L6.5 6L11.5 1"
+                                  stroke="white"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div
+                            className="dropdown-content"
+                            style={{ display: First ? "block" : "none" }}
+                          >
+                            <div
+                              onClick={(e) => {
+                                setIsSecond(e.target.textContent);
+                                setFirst(!First);
+                              }}
+                              className="item"
+                            >
+                              Rajasthan State Beach
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsSecond(e.target.textContent);
+                                setFirst(!First);
+                              }}
+                            >
+                              Haryana State Beach
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsSecond(e.target.textContent);
+                                setFirst(!First);
+                              }}
+                            >
+                              Punjab State Beach
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center pt_24">
+                      <p className="ff_calibri_regular fw_700 fs_sm min_65 text-white m-0 ">
+                        Site Type:
+                      </p>
+                      <div className="pl_45 d-flex ">
+                        <div className="App min_134">
+                          <div className="dropdown ">
+                            <div
+                              onClick={(e) => {
+                                setThird(!Third);
+                              }}
+                              className="dropdown-btn d-flex justify-content-between"
+                            >
+                              {Fourth}
+                              <span
+                                className={
+                                  Third
+                                    ? "fas fa-caret-up"
+                                    : "fas fa-caret-down"
+                                }
+                              />
+                              <span className="pl_15">
+                                <svg
+                                  width="13"
+                                  height="7"
+                                  viewBox="0 0 13 7"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M1.5 1L6.5 6L11.5 1"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              className="dropdown-content"
+                              style={{ display: Third ? "block" : "none" }}
+                            >
+                              <div
+                                onClick={(e) => {
+                                  setIsFourth(e.target.textContent);
+                                  setThird(!Third);
+                                }}
+                                className="item"
+                              >
+                                RA
+                              </div>
+                              <div
+                                className="item"
+                                onClick={(e) => {
+                                  setIsFourth(e.target.textContent);
+                                  setThird(!Third);
+                                }}
+                              >
+                                RV
+                              </div>
+                              <div
+                                className="item"
+                                onClick={(e) => {
+                                  setIsFourth(e.target.textContent);
+                                  setThird(!Third);
+                                }}
+                              >
+                                RD
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* ########################################## */}
+                        <div className="App pl_10 min_108">
+                          <div className="dropdown ">
+                            <div
+                              onClick={(e) => {
+                                setFifth(!Fifth);
+                              }}
+                              className="dropdown-btn d-flex justify-content-between"
+                            >
+                              {Sixth}
+                              <span
+                                className={
+                                  Fifth
+                                    ? "fas fa-caret-up"
+                                    : "fas fa-caret-down"
+                                }
+                              />
+                              <span className="pl_15">
+                                <svg
+                                  width="13"
+                                  height="7"
+                                  viewBox="0 0 13 7"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M1.5 1L6.5 6L11.5 1"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              className="dropdown-content"
+                              style={{ display: Fifth ? "block" : "none" }}
+                            >
+                              <div
+                                onClick={(e) => {
+                                  setIsSixth(e.target.textContent);
+                                  setFifth(!Fifth);
+                                }}
+                                className="item"
+                              >
+                                12 ft.
+                              </div>
+                              <div
+                                className="item"
+                                onClick={(e) => {
+                                  setIsSixth(e.target.textContent);
+                                  setFifth(!Fifth);
+                                }}
+                              >
+                                14 ft.
+                              </div>
+                              <div
+                                className="item"
+                                onClick={(e) => {
+                                  setIsSixth(e.target.textContent);
+                                  setFifth(!Fifth);
+                                }}
+                              >
+                                16 ft.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center pt_24">
+                      <p className="ff_calibri_regular fw_700 fs_sm text-white m-0">
+                        Number in your party:
+                      </p>
+                      <div className="App mr_-20 ">
+                        <div className="dropdown pl_10 mw_108">
+                          <div
+                            onClick={(e) => {
+                              setSeventh(!Seventh);
+                            }}
+                            className="dropdown-btn d-flex justify-content-between"
+                          >
+                            {Eighth}
+                            <span
+                              className={
+                                Seventh
+                                  ? "fas fa-caret-up"
+                                  : "fas fa-caret-down"
+                              }
+                            />
+                            <span className="pl_14">
+                              <svg
+                                width="13"
+                                height="7"
+                                viewBox="0 0 13 7"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 1L6.5 6L11.5 1"
+                                  stroke="white"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div
+                            className="dropdown-content"
+                            style={{ display: Seventh ? "block" : "none" }}
+                          >
+                            <div
+                              onClick={(e) => {
+                                setIsEighth(e.target.textContent);
+                                setSeventh(!Seventh);
+                              }}
+                              className="item"
+                            >
+                              02
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsEighth(e.target.textContent);
+                                setSeventh(!Seventh);
+                              }}
+                            >
+                              03
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsEighth(e.target.textContent);
+                                setSeventh(!Seventh);
+                              }}
+                            >
+                              04
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center pt_24">
+                      <p className="ff_calibri_regular fw_700 fs_sm text-white m-0">
+                        Check in Date:
+                      </p>
+                      <div className="App mr_-20  ">
+                        <div className="dropdown pl_10 min_214">
+                          <div
+                            onClick={(e) => {
+                              setNinth(!Ninth);
+                            }}
+                            className="dropdown-btn d-flex justify-content-between"
+                          >
+                            {Tenth}
+                            <span
+                              className={
+                                Seventh
+                                  ? "fas fa-caret-up"
+                                  : "fas fa-caret-down"
+                              }
+                            />
+                            <span>
+                              <svg
+                                width="13"
+                                height="7"
+                                viewBox="0 0 13 7"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 1L6.5 6L11.5 1"
+                                  stroke="white"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div
+                            className="dropdown-content"
+                            style={{ display: Ninth ? "block" : "none" }}
+                          >
+                            <div
+                              onClick={(e) => {
+                                setIsTenth(e.target.textContent);
+                                setNinth(!Ninth);
+                              }}
+                              className="item"
+                            >
+                              Saturday,May 14/2022
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsTenth(e.target.textContent);
+                                setNinth(!Ninth);
+                              }}
+                            >
+                              Sunday,May 15/2022
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsTenth(e.target.textContent);
+                                setNinth(!Ninth);
+                              }}
+                            >
+                              Monday,May 16/2022
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center pt_24">
+                      <p className="ff_calibri_regular fw_700 fs_sm text-white m-0">
+                        Check Out Date:
+                      </p>
+                      <div className="App mr_-20  ">
+                        <div className="dropdown pl_10_md mw_214">
+                          <div
+                            onClick={(e) => {
+                              setEleventh(!Eleventh);
+                            }}
+                            className="dropdown-btn d-flex"
+                          >
+                            {Twelevth}
+                            <span
+                              className={
+                                Seventh
+                                  ? "fas fa-caret-up"
+                                  : "fas fa-caret-down"
+                              }
+                            />
+                            <span className="pl_10">
+                              <svg
+                                width="13"
+                                height="7"
+                                viewBox="0 0 13 7"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 1L6.5 6L11.5 1"
+                                  stroke="white"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div
+                            className="dropdown-content"
+                            style={{ display: Eleventh ? "block" : "none" }}
+                          >
+                            <div
+                              onClick={(e) => {
+                                setIsTwelevth(e.target.textContent);
+                                setEleventh(!Eleventh);
+                              }}
+                              className="item"
+                            >
+                              Monday,May 16/2022
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsTwelevth(e.target.textContent);
+                                setEleventh(!Eleventh);
+                              }}
+                            >
+                              Tuesday,May 17/2022
+                            </div>
+                            <div
+                              className="item"
+                              onClick={(e) => {
+                                setIsTwelevth(e.target.textContent);
+                                setEleventh(!Eleventh);
+                              }}
+                            >
+                              Wednesday,May 18/2022
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-center position-relative z-3">
+                      <button className="continue_button border-0 ff_comic fw_700 fs_sm  mt_50 ml_38 ">
+                        <a href="#" className="text-white text_decoration">
+                          Continue to Step 2
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="position-absolute top-0 right_0 d_none">
+          <img src={right} alt="right top dots" />
+        </div>
+        <div className="position-absolute left_0 bottom_0 d_none">
+          <img src={left} alt="left bottom dots" />
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Overview;
