@@ -11,11 +11,11 @@ const TimeLine = () => {
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="mx_1080 mx-auto after_line position-relative pt-5 mt-lg-4">
-          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot ">
+          <Row className="justify-content-between align-items-lg-center align-items-start position-relative after_dot pt-sm-3">
             <Col lg={5} sm={2} data-aos="fade-left"
               data-aos-duration="2000">
               <div className="text-lg-end">
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-4  ps-4 ms-md-2 ms-sm-2 ms-4 fw_900">
                   01
                 </h1>
               </div>
@@ -46,7 +46,7 @@ const TimeLine = () => {
               data-aos-duration="2000"
             >
               <div>
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-4 ms-sm-2 fw_900">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-4 ps-4 ms-md-0 ms-4 ms-sm-1 fw_900">
                   02
                 </h1>
               </div>
@@ -81,7 +81,7 @@ const TimeLine = () => {
             <Col lg={5} sm={2} className="pt-lg-5 mt-sm-5 mt-1"data-aos="fade-left"
               data-aos-duration="2000">
               <div className="text-lg-end text-start">
-                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-5 ps-sm-4 ps-4 ms-md-0 ms-sm-2 ms-4 fw_900">
+                <h1 className="trns-text ff_rubik fs_4xl ps-lg-0 ps-md-4 ps-sm-4 ps-4 ms-md-0 ms-sm-1 ms-4 fw_900">
                   03
                 </h1>
               </div>

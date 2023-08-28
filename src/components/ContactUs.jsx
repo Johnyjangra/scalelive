@@ -72,16 +72,18 @@ const ContactUs = () => {
                     </Col>
                     <Col sm={6}>
                       <span>Company Type*</span>
-                      <Dropdown>
-                        <Dropdown.Toggle
-                          id="dropdown-basic"
-                          className="w-100 d-flex align-items-center justify-content-between bg-transparent compant_dropdown"
+                     
+                        <div>
+                        <select
+                          className="dropdown w-100 py-3 mt-2"
                         >
-                        <p className="ff_rubik mb-0 fw-normal fs_sm">B2B</p>
-                        </Dropdown.Toggle>
-
-                       
-                      </Dropdown>
+                          <option value="volvo">B2B</option>
+                          <option value="saab">A3S</option>
+                          <option value="opel">OK5</option>
+                          <option value="audi">U7S</option>
+                        </select>
+                        </div>
+                    
                     </Col>
                   </div>
                   <div className="pt-sm-3 pt-sm-3 pt-2"data-aos="fade-up"data-aos-delay="1100">

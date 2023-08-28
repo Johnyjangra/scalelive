@@ -65,8 +65,8 @@ const ScalMarket = () => {
           </Row >
           <div className="position-relative bottom_p_lines mx-auto mt-lg-5 mt-md-4 mt-2 mb-lg-4 mb-xl-0" data-aos="fade-up"
               data-aos-duration="2000">
-            <div className="bg-black py-sm-4 py-3">
-              <p className="py-2 mt-1 ff_rubik text-white fw-normal lh_150 opacity_09 fs_md position-relative mx-auto mb-0 mw_685 text-center">
+            <div className="bg-black py-md-4 py-3">
+              <p className="py-2 px-3 px-lg-0 mt-1 ff_rubik text-white fw-normal lh_150 opacity_09 fs_md position-relative mx-auto mb-0 mw_685 text-center">
                 Browse our wide assortment of smartphones and services, find
                 what responds to your demands, and let us do what we know best;
                 offer you the most pleasant, smooth, and stress-free client
