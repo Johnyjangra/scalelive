@@ -16,12 +16,10 @@ const ContactUs = () => {
           <Container className="mb-my-5 py-md-5">
             <h2
               className="fs_2xl text-white ff_rubik fw-medium text-center"
-              
             >Contact Us
             </h2>
             <p
               className="text-center fs_lg fw-normal ff_rubik txt_skyblue font_s_italic"
-              
             >Join Our Family Of Partners
             </p>
             <div className="mw_899 text-center mx-auto" >
