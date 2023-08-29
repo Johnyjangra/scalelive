@@ -179,7 +179,6 @@ body {
   border-radius: 384px;
   background: var(--main-colors-secondary-colors-red, #d93228);
   filter: blur(150px);
-  animation: scal 3s linear infinite;
 }
 
 .hero_green_circle {
@@ -466,7 +465,7 @@ body {
 
 .about_us .accordion-item {}
 
-.about_us .accordion-item:last-of-type {
+.about_us .accordion-item:ast-of-type {
   border-radius: 4px !important;
 }
 
@@ -723,7 +722,8 @@ body {
   outline: none;
   opacity: 0.7;
 }
-.dropdown{
+
+.dropdown {
   font-family: "Rubik";
   color: white;
   font-size: var(--fs-sm);
@@ -731,10 +731,22 @@ body {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.02);
-  padding: 16px;
+  padding: 14px;
   margin-top: 4px;
   outline: none;
-  opacity: 0.7;
+  margin-top: 10px;
+}
+.dropdown2 {
+  font-family: "Rubik";
+  color: white;
+  font-size: var(--fs-sm);
+  font-weight: 400x;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 14px;
+  margin-top: 4px;
+  outline: none;
   margin-top: 10px;
 }
 
@@ -746,57 +758,60 @@ body {
   opacity: 0.7;
 }
 
-.contact_form .compant_dropdown {
+.dropdown {
+  position: relative;
+  z-index: 4;
+}
+.dropdown2 {
+  position: relative;
+  z-index: 11;
+}
+
+.dropdown {
+  z-index: 3 !important;
+}
+
+.dropdown-content {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  opacity: 0.8;
-  background: rgba(255, 255, 255, 0.02);
-  padding: 16px;
-  margin-top: 10px;
+background-color: black !important;
 }
-
-.btn-check:checked+.btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check)+.btn:active {
-  border-color: rgba(255, 255, 255, 0.319) !important;
-}
-
-.contact_form .dropdown-menu.show {
-  width: 100% !important;
-}
-
-.dropdown-menu {
-  background-color: black;
+.dropdown-content2 {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
+background-color: black !important;
 }
 
-.btn:first-child:active {
-  border: none !important;
+.dropdown-content .item {
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  background-color:black;
+  padding: 8px;
+}
+.dropdown-content2 .item2 {
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  background-color:black;
+  padding: 8px;
+  opacity: 100;
 }
 
-.btn:first-child:active {
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+
+.dropdown-content .item:hover {
+  background-color: #656967;
+}
+.dropdown-content2 .item2:hover {
+  background-color: #656967;
 }
 
-.btn:first-child:hover {
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-}
-
-.dropdown-menu .dropdown-item {
-  color: white !important;
-  font-family: "Rubik";
-  font-weight: 400;
-  font-size: var(--fs-sm);
-  opacity: 0.7;
-}
-
-.dropdown-menu .dropdown-item:hover {
-  background-color: gainsboro;
-  color: black !important;
-  border-radius: 10px !important;
-  opacity: 1;
-}
 
 .contact_form textarea {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -806,7 +821,7 @@ body {
   outline: none;
   margin-top: 10px;
 }
-
+.opacity_100{opacity: 100% !important;}
 .form_btn {
   padding: 14px 30px;
   border-radius: 100px;
@@ -950,6 +965,7 @@ body {
   top: -1%;
 }
 
+
 @media (min-width: 400px) {
   .after_dot::after {
     content: "";
@@ -988,6 +1004,8 @@ body {
 
 /*------------------------------------------------------- media screen 576 ---------------------------------*/
 @media (min-width: 576px) {
+  .dropdown{padding: 16px;}
+  .dropdown2{padding: 16px;}
   .animation_preloader {
     animation: pulse 3s ease infinite;
     max-width: 250px;
@@ -1005,6 +1023,8 @@ body {
     margin-top: 10px;
     outline: none;
     opacity: 0.7;
+    position: relative !important;
+    z-index: 1 !important;
   }
 
   .scal_market_shadow::after {
@@ -1422,6 +1442,7 @@ body {
     top: 3%;
   }
 }
+
 /*------------------------------------------------- media screen 1400 ----------------------------------*/
 @media (min-width: 1400px) {
   .left_arrows {
@@ -1436,6 +1457,3 @@ body {
     right: -100px;
   }
 }
-
-
-
