@@ -1,10 +1,11 @@
-import React, { Container, Row, Col} from "react-bootstrap";
+import React, { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
 import form_img from "../assets/images/webp/form_img.webp";
-import icon from "../assets/images/svg/dropdown_icon.svg"
+import icon from "../assets/images/svg/dropdown_icon.svg";
 const ContactUs = () => {
   const [isActive, setIsActive] = useState(false);
   const [selected, setIsSelected] = useState("CA");
+  
   return (
     <>
       <section className="pb-5 position-relative" id="contact">
@@ -97,50 +98,49 @@ const ContactUs = () => {
                       <span>Company Type*</span>
 
                       <div className="dropdown">
-                            <div
-                              onClick={(e) => {
-                                setIsActive(!isActive);
-                              }}
-                              className="dropdown-btn d-flex justify-content-between"
-                            >
-                              {selected}
-                              
-                              <img src={icon} alt="icon" />
-                            </div>
-                            <div
-                              className="dropdown-content"
-                              style={{ display: isActive ? "block" : "none" }}
-                            >
-                              <div
-                                onClick={(e) => {
-                                  setIsSelected(e.target.textContent);
-                                  setIsActive(!isActive);
-                                }}
-                                className="item"
-                              >
-                                CA
-                              </div>
-                              <div
-                                className="item"
-                                onClick={(e) => {
-                                  setIsSelected(e.target.textContent);
-                                  setIsActive(!isActive);
-                                }}
-                              >
-                                BA
-                              </div>
-                              <div
-                                className="item"
-                                onClick={(e) => {
-                                  setIsSelected(e.target.textContent);
-                                  setIsActive(!isActive);
-                                }}
-                              >
-                                TA
-                              </div>
-                            </div>
-                          </div>
+                        <div
+                          onClick={(e) => {
+                            setIsActive(!isActive);
+                          }}
+                          className="dropdown-btn d-flex justify-content-between"
+                        >
+                          {selected}
 
+                          <img src={icon} alt="icon" />
+                        </div>
+                        <div
+                          className="dropdown-content"
+                          style={{ display: isActive ? "block" : "none" }}
+                        >
+                          <div
+                            onClick={(e) => {
+                              setIsSelected(e.target.textContent);
+                              setIsActive(!isActive);
+                            }}
+                            className="item"
+                          >
+                            CA
+                          </div>
+                          <div
+                            className="item"
+                            onClick={(e) => {
+                              setIsSelected(e.target.textContent);
+                              setIsActive(!isActive);
+                            }}
+                          >
+                            BA
+                          </div>
+                          <div
+                            className="item"
+                            onClick={(e) => {
+                              setIsSelected(e.target.textContent);
+                              setIsActive(!isActive);
+                            }}
+                          >
+                            TA
+                          </div>
+                        </div>
+                      </div>
                     </Col>
                   </div>
                   <div
@@ -150,10 +150,10 @@ const ContactUs = () => {
                   >
                     <span>Buyers</span>
                     <div className="company_type styled-select  mt-3">
-                      <select
-                        className="dropdown w-100"
-                      >
-                        <option className="bg-black" value="volvo">B2B</option>
+                      <select className="dropdown w-100">
+                        <option className="bg-black" value="volvo">
+                          B2B
+                        </option>
                         <option value="saab">A3S</option>
                         <option value="opel">OK5</option>
                         <option value="audi">U7S</option>
