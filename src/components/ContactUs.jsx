@@ -58,8 +58,7 @@ const ContactUs = () => {
                 >
                   <div
                     className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"
-                    
-                                      >
+                   >
                     <Col sm={6}>
                       <span>First Name*</span>
                       <input type="text" className="w-100" />
@@ -71,8 +70,7 @@ const ContactUs = () => {
                   </div>
                   <div
                     className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"
-                    
-                                      >
+               >
                     <Col sm={6}>
                       <span>Company Name*</span>
                       <input type="text" className="w-100" />
@@ -83,9 +81,7 @@ const ContactUs = () => {
                     </Col>
                   </div>
                   <div
-                    className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row"
-                    
-                                      >
+                    className="d-flex gap-sm-3 gap-1 pe-sm-3 pt-sm-3  flex-column flex-sm-row">
                     <Col sm={6}>
                       <span>Email*</span>
                       <input type="email" className="w-100" />
@@ -132,10 +128,7 @@ const ContactUs = () => {
                     </Col>
                   </div>
                   <div
-                    className="pt-sm-3 pt-sm-3 pt-2"
-                    
-                    
-                  >
+                    className="pt-sm-3 pt-sm-3 pt-2">
                     <span>Buyers</span>
                     <div className="dropdown">
                             <div
@@ -175,18 +168,12 @@ const ContactUs = () => {
                           </div>
                   </div>
                   <div
-                    className="pt-sm-3 pt-sm-3 pt-2"
-                    
-                    
-                  >
+                    className="pt-sm-3 pt-sm-3 pt-2" >
                     <span>Message</span>
                     <textarea className="w-100 rounded-2 ff_rubik text-white fw-normal px-3  fs_sm opacity_07"></textarea>
                   </div>
                   <div
-                    className="pt-sm-4 pt-3 mt-lg-2"
-                    
-                    
-                  >
+                    className="pt-sm-4 pt-3 mt-lg-2">
                     <button className="ff_rubik fw-normal fs_sm text-white form_btn btn_h">
                       Send Now
                     </button>
@@ -203,5 +190,4 @@ const ContactUs = () => {
     </>
   );
 };
-
 export default ContactUs;
